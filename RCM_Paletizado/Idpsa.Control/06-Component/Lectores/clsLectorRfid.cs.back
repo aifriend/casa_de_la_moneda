@@ -1,0 +1,50 @@
+﻿namespace Idpsa
+{
+
+    [System.Serializable()]
+    public abstract class clsLectorRfid:System.IDisposable //:clsLectorRfid
+    {
+
+        protected string name;
+        protected string lastReadedCode;
+        public bool Connected { get; protected set; }
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+
+        public virtual void ResetLastErrorCode(){
+            lastReadedCode = "";
+        }
+
+        public string LastReadedCode
+        {
+            get
+            {
+                return lastReadedCode;
+            }
+        }
+        public clsLectorRfid(string name)
+        {
+            this.name = name;
+        }
+        public abstract bool ConnectReader();
+
+        public abstract bool DisconnectReader();
+       
+        /// <summary>
+        /// Lee el codigo RFID.
+        /// </summary>
+        /// <param name="code">Parametro de salida. Contiene el codigo leido.</param>
+        /// <returns>TRUE: si ha leido codigo RFID. 
+        ///          FALSE: en caso contrario</returns>
+        public abstract bool ReadCode(out string code);     
+
+        public abstract void Dispose();
+       
+
+        
+    }
+}

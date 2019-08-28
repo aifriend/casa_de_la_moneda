@@ -1,0 +1,10 @@
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCMCommonTypes\bin\Release\RCMCommonTypes.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCMCommonTypes\bin\Release\RCMCommonTypes.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCMCommonTypes\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCMCommonTypes\obj\Release\RCMCommonTypes.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCMCommonTypes\obj\Release\RCMCommonTypes.pdb
+C:\Copias Seguridad\RCM_Paletizado\RCMCommonTypes\bin\Release\RCMCommonTypes.dll
+C:\Copias Seguridad\RCM_Paletizado\RCMCommonTypes\bin\Release\RCMCommonTypes.pdb
+C:\Copias Seguridad\RCM_Paletizado\RCMCommonTypes\obj\Release\ResolveAssemblyReference.cache
+C:\Copias Seguridad\RCM_Paletizado\RCMCommonTypes\obj\Release\RCMCommonTypes.dll
+C:\Copias Seguridad\RCM_Paletizado\RCMCommonTypes\obj\Release\RCMCommonTypes.pdb

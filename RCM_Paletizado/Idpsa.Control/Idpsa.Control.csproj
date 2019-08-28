@@ -1,0 +1,639 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Idpsa.Controller</RootNamespace>
+    <AssemblyName>IDPSA.Controller</AssemblyName>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CCE94F20-6CE9-4C94-975B-B74BB4288450}</ProjectGuid>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <StartupObject>
+    </StartupObject>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DefineConstants>
+    </DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>IdpsaControlAPI.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="URMAPI, Version=0.9.3.0, Culture=neutral, PublicKeyToken=5362429f975c8428, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Paletizado\bin\URMAPI.DLL</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01-Control\DataEventArgs.cs" />
+    <Compile Include="02-Engine\Control mando\CommandControllerSimulated.cs" />
+    <Compile Include="02-Engine\Control protecciones\IProtectionsController.cs" />
+    <Compile Include="02-Engine\Control protecciones\ProtectionsControllerSimulated.cs" />
+    <Compile Include="02-Engine\SystemControlRequestHandler.cs" />
+    <Compile Include="02-Engine\Control mando\ICommandController.cs" />
+    <Compile Include="02-Engine\Control mando\CommandController.cs" />
+    <Compile Include="02-Engine\ControlModeStatus.cs" />
+    <Compile Include="02-Engine\ControlStopRequest.cs" />
+    <Compile Include="02-Engine\Main.cs" />
+    <Compile Include="02-Engine\ControlLoop.cs" />
+    <Compile Include="02-Engine\SystemController.cs" />
+    <Compile Include="02-Engine\Status\AddedStatus.cs" />
+    <Compile Include="02-Engine\Status\AirAddedStatus.cs" />
+    <Compile Include="02-Engine\Status\StatusEventArgs.cs" />
+    <Compile Include="02-Engine\Status\StatusValue.cs" />
+    <Compile Include="02-Engine\SystemNotifier.cs" />
+    <Compile Include="03-Subsystem\IRi2.cs" />
+    <Compile Include="03-Subsystem\IAutomaticRunnable2.cs" />
+    <Compile Include="03-Subsystem\SubsystemState\ISubsystemStateAware.cs" />
+    <Compile Include="03-Subsystem\SubsystemState\ISubsystemStateController.cs" />
+    <Compile Include="03-Subsystem\SubsystemFilter.cs" />
+    <Compile Include="03-Subsystem\SubsystemState\ISubsystemStateObserver.cs" />
+    <Compile Include="03-Subsystem\SubsystemState\SubsystemState.cs" />
+    <Compile Include="03-Subsystem\SubsystemState\SubsystemStateAware.cs" />
+    <Compile Include="06-Component\Basculas\BasculaHBM.cs" />
+    <Compile Include="06-Component\Data Notifier\IDataNotifierProvider.cs" />
+    <Compile Include="06-Component\Data Notifier\DataNotifier.cs" />
+    <Compile Include="06-Component\Data Notifier\IDataNotifier.cs" />
+    <Compile Include="06-Component\Lectores\Lectores Rfid\CommandChip.cs" />
+    <Compile Include="06-Component\Lectores\Lectores Rfid\RfidReaderEmployeeOK.cs" />
+    <Compile Include="06-Component\Lectores\Lectores Rfid\RfidReaderFake.cs" />
+    <Compile Include="06-Component\Neumatica\Actuadores de giro\GyreActuator.cs" />
+    <Compile Include="06-Component\Neumatica\Actuadores de giro\GyreActuatorSommerSFM.cs" />
+    <Compile Include="06-Component\Neumatica\Cilindros\CylinderExtensions.cs" />
+    <Compile Include="06-Component\Neumatica\Cilindros\CylinderPosition.cs" />
+    <Compile Include="06-Component\Señal\SynchronizedActions.cs" />
+    <Compile Include="04-Sequence\DynamicStepBody.cs" />
+    <Compile Include="01-Control\IDPSASystem.cs" />
+    <Compile Include="03-Subsystem\SubsystemAttribute.cs" />
+    <Compile Include="02-Engine\SubsystemsFacade.cs" />
+    <Compile Include="02-Engine\SubsystemsAnalizer.cs" />
+    <Compile Include="02-Engine\SystemChains.cs" />
+    <Compile Include="02-Engine\SpecialDevicesManager.cs" />
+    <Compile Include="05-Diagnosis\TypeDiagnosisSignal.cs" />
+    <Compile Include="05-Diagnosis\DiagnosisType.cs" />
+    <Compile Include="06-Component\Actuadores\Actuator.cs" />
+    <Compile Include="06-Component\Actuadores\ActuatorWithInversor.cs" />
+    <Compile Include="06-Component\Actuadores\ActuatorWithInversorSimple.cs" />
+    <Compile Include="06-Component\Actuadores\ActuatorWithInversorAndLimitSwitchs.cs" />
+    <Compile Include="06-Component\Actuadores\ActuatorN.cs" />
+    <Compile Include="06-Component\Actuadores\ActuatorP.cs" />
+    <Compile Include="06-Component\Actuadores\ActuatorSimulated.cs" />
+    <Compile Include="06-Component\Actuadores\ActuatorStep.cs" />
+    <Compile Include="06-Component\Actuadores\ActuatorTwoPositionsMovement.cs" />
+    <Compile Include="06-Component\Component interfaces\ISlowFastVelocity.cs" />
+    <Compile Include="06-Component\Señal\Address.cs" />
+    <Compile Include="01-Control\Evaluable-Activable\IEvaluable.cs" />
+    <Compile Include="01-Control\Evaluable-Activable\IActivable.cs" />
+    <Compile Include="06-Component\Component interfaces\IJog.cs" />
+    <Compile Include="06-Component\Component interfaces\IPositionMonotorizable.cs" />
+    <Compile Include="06-Component\Component interfaces\IVelocityMonotorizable.cs" />
+    <Compile Include="06-Component\Lectores\BarCodeReaderWenglor.cs" />
+    <Compile Include="06-Component\Lectores\IReaderExtensions.cs" />
+    <Compile Include="06-Component\Lectores\IReader.cs" />
+    <Compile Include="06-Component\Neumatica\Cilindros\Cylinder1Efect1Sensor.cs" />
+    <Compile Include="06-Component\Neumatica\Cilindros\Cylinder2Efect1Sensor.cs" />
+    <Compile Include="06-Component\Señal\LogicalActivable.cs" />
+    <Compile Include="06-Component\Señal\LogicalEvaluable.cs" />
+    <Compile Include="06-Component\Socket\ISocket.cs" />
+    <Compile Include="06-Component\Socket\ISocketExtensions.cs" />
+    <Compile Include="06-Component\Socket\SocketListener.cs" />
+    <Compile Include="06-Component\Socket\SocketSerializer.cs" />
+    <Compile Include="07-Manuals\IManualControlFactory.cs" />
+    <Compile Include="07-Manuals\TreeViewLevels.cs" />
+    <Compile Include="07-Manuals\DynamicManual.cs" />
+    <Compile Include="04-Sequence\ExecutionLine.cs" />
+    <Compile Include="04-Sequence\ExecutionLines.cs" />
+    <Compile Include="04-Sequence\ExecutionPoint.cs" />
+    <Compile Include="07-Manuals\GeneralManual.cs" />
+    <Compile Include="07-Manuals\IManualFormatProvider.cs" />
+    <Compile Include="07-Manuals\IDynamicManual.cs" />
+    <Compile Include="07-Manuals\ManualAttribute.cs" />
+    <Compile Include="07-Manuals\IManualsProvider.cs" />
+    <Compile Include="06-Component\Fajadora\FajadoraSimulada.cs" />
+    <Compile Include="06-Component\Fajadora\IFajadora.cs" />
+    <Compile Include="06-Component\Encoders\IncrementalEncoder.cs" />
+    <Compile Include="06-Component\Gantrys\Gantry2_C3I20T11.cs" />
+    <Compile Include="06-Component\Gantrys\Gantry2_C3I20T11_ChainController.cs" />
+    <Compile Include="06-Component\Gantrys\Gantry3Parker.cs" />
+    <Compile Include="06-Component\Gantrys\Gantry3_C3I20T11.cs" />
+    <Compile Include="06-Component\Gantrys\Gantry3_C3I20T11_ChainController.cs" />
+    <Compile Include="06-Component\Lineal Actuator\LinealActuatorWithIncrementalEncoder.cs" />
+    <Compile Include="02-Engine\SystemGeneralSignals.cs" />
+    <Compile Include="06-Component\Buses de campo\Bus.cs" />
+    <Compile Include="06-Component\Buses de campo\IBusController.cs" />
+    <Compile Include="06-Component\Impresoras\RawPrinterHelper.cs" />
+    <Compile Include="06-Component\Lectores\SimulatedReader.cs" />
+    <Compile Include="06-Component\Lectores\Lectores Rfid\RfidReader.cs" />
+    <Compile Include="06-Component\Lectores\ServerSocket.cs" />
+    <Compile Include="06-Component\Neumatica\Cilindros\Cylinder1EfectTimed.cs" />
+    <Compile Include="06-Component\Neumatica\Cilindros\ICylinder.cs" />
+    <Compile Include="06-Component\Pulse Counters\ICounter.cs" />
+    <Compile Include="06-Component\Pulse Counters\Wago_750.cs" />
+    <Compile Include="05-Diagnosis\SecurityDiagnosisCondition.cs" />
+    <Compile Include="05-Diagnosis\SecurityDiagnosis.cs" />
+    <Compile Include="06-Component\Sensores\ISensor.cs" />
+    <Compile Include="06-Component\Sensores\SensorSimulated.cs" />
+    <Compile Include="06-Component\ServoDrivers\CompaxC3I20T11.cs" />
+    <Compile Include="06-Component\ServoDrivers\Parker.cs" />
+    <Compile Include="04-Sequence\Chain.cs" />
+    <Compile Include="04-Sequence\ChainComunicator.cs" />
+    <Compile Include="04-Sequence\ChainController.cs" />
+    <Compile Include="04-Sequence\DynamicChain.cs" />
+    <Compile Include="07-Manuals\Manual.cs" />
+    <Compile Include="04-Sequence\SimpleChain.cs" />
+    <Compile Include="04-Sequence\Step.cs" />
+    <Compile Include="04-Sequence\StepByStep.cs" />
+    <Compile Include="04-Sequence\StructuredChain .cs" />
+    <Compile Include="07-Manuals\ManualManagerWithSuperGroups.cs" />
+    <Compile Include="07-Manuals\ManualManager.cs" />
+    <Compile Include="07-Manuals\ManualManagerWithOutSuperGroups.cs" />
+    <Compile Include="06-Component\Variadores\Altivar.cs" />
+    <Compile Include="01-Control\Evaluable-Activable\Activable.cs" />
+    <Compile Include="01-Control\Evaluable-Activable\Evaluable.cs" />
+    <Compile Include="09-Users\UserType.cs" />
+    <Compile Include="11-View\Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="10-Tool\2-Estructuras de datos\FifoList.cs" />
+    <Compile Include="10-Tool\2-Estructuras de datos\TDictionary.cs" />
+    <Compile Include="10-Tool\2-Estructuras de datos\TList.cs" />
+    <Compile Include="10-Tool\2-Estructuras de datos\TQueue.cs" />
+    <Compile Include="10-Tool\2-Estructuras de datos\Tree\Tree.cs" />
+    <Compile Include="10-Tool\2-Estructuras de datos\Tree\TreeNode.cs" />
+    <Compile Include="10-Tool\2-Estructuras de datos\Tree\TreeNodeList.cs" />
+    <Compile Include="10-Tool\3-Geometria\Definiones\Spin.cs" />
+    <Compile Include="10-Tool\3-Geometria\Figuras\Rectangle.cs" />
+    <Compile Include="10-Tool\3-Geometria\Puntos\Puntos 2D\CornerPoint2D.cs" />
+    <Compile Include="10-Tool\3-Geometria\Puntos\Puntos 3D\CornerPoint3D.cs" />
+    <Compile Include="10-Tool\4-Contenedores\PairList.cs" />
+    <Compile Include="06-Component\Señal\SynchronizedManager.cs" />
+    <Compile Include="10-Tool\5-Helpers\EdgeWatcher.cs" />
+    <Compile Include="10-Tool\5-Helpers\EventsHelper.cs" />
+    <Compile Include="10-Tool\5-Helpers\Singleton.cs" />
+    <Compile Include="10-Tool\5-Helpers\PartialComparer.cs" />
+    <Compile Include="10-Tool\6-Reflexion\ReflexionHelper.cs" />
+    <Compile Include="11-View\Manual controls\ControlGeneralManual.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlEvaluable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlEvaluable.designer.cs">
+      <DependentUpon>ControlEvaluable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlC3I20T11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlDadaDysplayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlDadaDysplayer.designer.cs">
+      <DependentUpon>ControlDadaDysplayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlDynamic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlDynamic.designer.cs">
+      <DependentUpon>ControlDynamic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlJog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlReader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlReader.designer.cs">
+      <DependentUpon>ControlReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlTitle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlTitle.designer.cs">
+      <DependentUpon>ControlTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="11-View\Forms\FormAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11-View\Forms\FormUsersAdministrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11-View\Forms\FormChains.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11-View\Forms\FormDIOSignals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11-View\Forms\FormAlarmsHistorical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11-View\Forms\FormParkerProfibus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11-View\Forms\FormIdpsaSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11-View\Forms\FormIdpsaSplash.designer.cs">
+      <DependentUpon>FormIdpsaSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="11-View\Forms\FormVariador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05-Diagnosis\DiagnosisFamilyLog.cs" />
+    <Compile Include="05-Diagnosis\GeneralDiagnosis.cs" />
+    <Compile Include="04-Sequence\Subchain.cs" />
+    <Compile Include="10-Tool\4-Contenedores\Pair.cs" />
+    <Compile Include="10-Tool\3-Geometria\Puntos\Puntos 2D\Point2D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10-Tool\3-Geometria\Puntos\Puntos 3D\Point3D.cs" />
+    <Compile Include="06-Component\Basculas\ScaleHBM.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="02-Engine\SystemControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Lectores\Lectores Rfid\RfidReaderDecipheIt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Seguridades\MicroEnclavamiento.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Neumatica\Ventosas\Sucker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Neumatica\Cilindros\Cylinder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Neumatica\Cilindros\Cylinder1Efect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Neumatica\Cilindros\Cylinder2Efect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Neumatica\Cilindros\Cylinders1EfectBypassed.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Neumatica\Cilindros\Cylinders2EfectBypassed.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Neumatica\Cilindros\CylinderSimuladed.cs" />
+    <Compile Include="06-Component\Sensores\Sensor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Sensores\SensorN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Sensores\SensorP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Señalizacion\Beacon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Señal\IOBase.cs" />
+    <Compile Include="06-Component\Señal\Input.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Señal\IOSignal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Señal\Output.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="05-Diagnosis\SecurityDiagnosisSignal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Tarjetas\ProfibusController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Telemetro\IfmO1D100.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Variadores\SiemensMicromaster420 .cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Varios\Piloto.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="05-Diagnosis\DiagnosisManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="05-Diagnosis\AlarmsHistoricalManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="01-Control\Mode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="05-Diagnosis\DiagnosisStep.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="05-Diagnosis\AlarmsHistorical.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="04-Sequence\ChainCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="05-Diagnosis\DiagnosisCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\ServoDrivers\ParkerCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="05-Diagnosis\SecuritySignalCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Variadores\SiemensMicromaster420Collection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Señal\IOCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="07-Manuals\ManualCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06-Component\Buses de campo\Profibus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08-Timing\R_TRIG.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08-Timing\TimerCounter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08-Timing\TOF.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08-Timing\TON.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="09-Users\UserAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10-Tool\1-Calculos\AdvancedMath.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10-Tool\2-Estructuras de datos\Fifo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="03-Subsystem\IAutomaticRunnable.cs" />
+    <Compile Include="04-Sequence\IChainControllable.cs" />
+    <Compile Include="04-Sequence\IChainController.cs" />
+    <Compile Include="04-Sequence\IChainControllerOwner.cs" />
+    <Compile Include="02-Engine\IDelegateTasksOwner.cs" />
+    <Compile Include="06-Component\Component interfaces\IDiagnosisDevice.cs" />
+    <Compile Include="03-Subsystem\IFreeRunnable.cs" />
+    <Compile Include="03-Subsystem\IManagerRunnable.cs" />
+    <Compile Include="03-Subsystem\IOriginDefiner.cs" />
+    <Compile Include="06-Component\Component interfaces\IReactivable.cs" />
+    <Compile Include="11-View\IRefrescable.cs" />
+    <Compile Include="02-Engine\IRestorable.cs" />
+    <Compile Include="03-Subsystem\IRi.cs" />
+    <Compile Include="04-Sequence\IRun.cs" />
+    <Compile Include="03-Subsystem\IDiagnosisOwner.cs" />
+    <Compile Include="06-Component\Component interfaces\ISpecialDevice.cs" />
+    <Compile Include="03-Subsystem\ISpecialDeviceOwner.cs" />
+    <Compile Include="11-View\IViewTasksOwner.cs" />
+    <Compile Include="03-Subsystem\IBackToOriginRunnable.cs" />
+    <Compile Include="10-Tool\7-Metodos Extenxion\StreamReaderExtensions.cs" />
+    <Compile Include="10-Tool\7-Metodos Extenxion\PrimitiveExtensions.cs" />
+    <Compile Include="02-Engine\SystemControlRequest.cs" />
+    <Compile Include="01-Control\ConfigFiles.cs" />
+    <Compile Include="10-Tool\7-Metodos Extenxion\IEnumerableExtensions.cs" />
+    <Compile Include="10-Tool\7-Metodos Extenxion\SerializationExtensions.cs" />
+    <Compile Include="11-View\Manual controls\ControlEthernet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="11-View\Manual controls\ControlEthernet.designer.cs">
+      <DependentUpon>ControlEthernet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="11-View\Manual controls\ControlGeneralManual.resx">
+      <DependentUpon>ControlGeneralManual.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Manual controls\ControlEvaluable.resx">
+      <DependentUpon>ControlEvaluable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Manual controls\ControlC3I20T11.resx">
+      <DependentUpon>ControlC3I20T11.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Manual controls\ControlDadaDysplayer.resx">
+      <DependentUpon>ControlDadaDysplayer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Manual controls\ControlDynamic.resx">
+      <DependentUpon>ControlDynamic.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Manual controls\ControlJog.resx">
+      <DependentUpon>ControlJog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Manual controls\ControlReader.resx">
+      <DependentUpon>ControlReader.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Manual controls\ControlTitle.resx">
+      <DependentUpon>ControlTitle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Forms\FormAccess.resx">
+      <DependentUpon>FormAccess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Forms\FormUsersAdministrator.resx">
+      <DependentUpon>FormUsersAdministrator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Forms\FormChains.resx">
+      <DependentUpon>FormChains.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Forms\FormDIOSignals.resx">
+      <DependentUpon>FormDIOSignals.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Forms\FormAlarmsHistorical.resx">
+      <DependentUpon>FormAlarmsHistorical.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Forms\FormParkerProfibus.resx">
+      <DependentUpon>FormParkerProfibus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Forms\FormIdpsaSplash.resx">
+      <DependentUpon>FormIdpsaSplash.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Forms\FormVariador.resx">
+      <DependentUpon>FormVariador.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11-View\Manual controls\ControlEthernet.resx">
+      <DependentUpon>ControlEthernet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileclose.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileclose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kgpg_identity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kontact_contacts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Idpsa_Logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IdpsaLogo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+</Project>

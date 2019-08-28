@@ -1,0 +1,567 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IDPSA.Control</name>
+    </assembly>
+    <members>
+        <member name="T:Idpsa.Control.Properties.Resources">
+            <summary>
+              Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Idpsa.Control.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Idpsa.Control.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.Manuals.ViewControl.ControlLinealActuator.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlLinealActuator.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlLinealActuator.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.Manuals.ViewControl.ControlDynamic.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlDynamic.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlDynamic.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.Manuals.ViewControl.ControlReader.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlReader.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlReader.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.MAX_DEV_BOARDS">
+            * ------------------------------------------------------------------------------------ */
+            *  global definitions                                                                  */
+            * ------------------------------------------------------------------------------------ */
+            * maximum numbers of boards  */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_NO_ERROR">
+            * ------------------------------------------------------------------------------------ */
+            *  driver errors                                                                       */
+            * ------------------------------------------------------------------------------------ */
+            * no error                                            */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_BOARD_NOT_INITIALIZED">
+            * DRIVER Board not initialized                        */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_INIT_STATE_ERROR">
+            * DRIVER Error in internal init state                 */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_READ_STATE_ERROR">
+            * DRIVER Error in internal read state                 */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_CMD_ACTIVE">
+            * DRIVER Command on this channel is active            */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_PARAMETER_UNKNOWN">
+            * DRIVER Unknown parameter in function occured        */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_WRONG_DRIVER_VERSION">
+            * DRIVER Version is incompatible with DLL             */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_PCI_SET_CONFIG_MODE">
+            * DRIVER Error during PCI set run mode                */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_PCI_READ_DPM_LENGTH">
+            * DRIVER Could not read PCI dual port memory length   */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_DPM_ACCESS_ERROR">
+            * DEVICE Dual port ram not accessable(board not found)*/
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_NOT_READY">
+            * DEVICE Not ready (ready flag failed)                */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_NOT_RUNNING">
+            * DEVICE Not running (running flag failed)            */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_WATCHDOG_FAILED">
+            * DEVICE Watchdog test failed                         */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_OS_VERSION_ERROR">
+            * DEVICE Signals wrong OS version                     */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_SYSERR">
+            * DEVICE Error in dual port flags                     */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_MAILBOX_FULL">
+            * DEVICE Send mailbox is full                         */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_PUT_TIMEOUT">
+            * DEVICE PutMessage timeout                           */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_GET_TIMEOUT">
+            * DEVICE GetMessage timeout                           */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_GET_NO_MESSAGE">
+            * DEVICE No message available                         */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_RESET_TIMEOUT">
+            * DEVICE RESET command timeout                        */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_NO_COM_FLAG">
+            * DEVICE COM-flag not set                             */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_EXCHANGE_FAILED">
+            * DEVICE IO data exchange failed                      */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_EXCHANGE_TIMEOUT">
+            * DEVICE IO data exchange timeout                     */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_COM_MODE_UNKNOWN">
+            * DEVICE IO data mode unknown                         */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_FUNCTION_FAILED">
+            * DEVICE Function call failed                         */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_DPMSIZE_MISMATCH">
+            * DEVICE DPM size differs from configuration          */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_STATE_MODE_UNKNOWN">
+            * DEVICE State mode unknown                           */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_HW_PORT_IS_USED">
+            * DEVICE Output port already in use                   */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_OPEN_ERROR">
+            * Error from Interface functions */
+            * USER Driver not opened (device driver not loaded)   */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_INIT_DRV_ERROR">
+            * USER Can't connect with device                      */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_NOT_INITIALIZED">
+            * USER Board not initialized (DevInitBoard not called)*/
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_COMM_ERR">
+            * USER IOCTRL function failed                         */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_DEV_NUMBER_INVALID">
+            * USER Parameter DeviceNumber  invalid                */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_INFO_AREA_INVALID">
+            * USER Parameter InfoArea unknown                     */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_NUMBER_INVALID">
+            * USER Parameter Number invalid                       */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_MODE_INVALID">
+            * USER Parameter Mode invalid                         */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_MSG_BUF_NULL_PTR">
+            * USER NULL pointer assignment                        */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_MSG_BUF_TOO_SHORT">
+            * USER Message buffer too short                       */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_SIZE_INVALID">
+            * USER Parameter Size invalid                         */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_SIZE_ZERO">
+            * USER Parameter Size with zero length                */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_SIZE_TOO_LONG">
+            * USER Parameter Size too long                        */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_DEV_PTR_NULL">
+            * USER Device address null pointer                    */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_BUF_PTR_NULL">
+            * USER Pointer to buffer is a null pointer            */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_SENDSIZE_TOO_LONG">
+            * USER SendSize parameter too long                    */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_RECVSIZE_TOO_LONG">
+            * USER ReceiveSize parameter too long                 */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_SENDBUF_PTR_NULL">
+            * USER Pointer to buffer is a null pointer            */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_RECVBUF_PTR_NULL">
+            * USER Pointer to buffer is a null pointer            */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DMA_INSUFF_MEM">
+            * DMA  Memory allocation error                        */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DMA_TIMEOUT_CH4">
+            * DMA  Read I/O timeout                               */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DMA_TIMEOUT_CH5">
+            * DMA  Write I/O timeout                              */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DMA_TIMEOUT_CH6">
+            * DMA  PCI transfer timeout                           */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DMA_TIMEOUT_CH7">
+            * DMA  Download timeout                               */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DMA_DB_DOWN_FAIL">
+            * DMA  Database download failed                       */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DMA_FW_DOWN_FAIL">
+            * DMA  Firmware download failed                       */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_CLEAR_DB_FAIL">
+            * DMA  Clear database on the device failed            */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_NO_VIRTUAL_MEM">
+            * USER Virtual memory not available                   */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DEV_UNMAP_VIRTUAL_MEM">
+            * USER Unmap virtual memory failed                    */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_GENERAL_ERROR">
+            * DRIVER General error                                */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DMA_ERROR">
+            * DRIVER General DMA error                            */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_WDG_IO_ERROR">
+            * DRIVER I/O WatchDog failed                          */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_WDG_DEV_ERROR">
+            * DRIVER Device WatchDog failed                       */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_DRIVER_UNKNOWN">
+            * USER driver unknown                                 */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_DEVICE_NAME_INVALID">
+            * USER device name invalid                            */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_DEVICE_NAME_UKNOWN">
+            * USER device name unknown                            */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_DEVICE_FUNC_NOTIMPL">
+            * USER device function not implemented                */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_FILE_OPEN_FAILED">
+            * USER File not opened                                */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_FILE_SIZE_ZERO">
+            * USER File size zero                                 */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_FILE_NO_MEMORY">
+            * USER Not enough memory to load file                 */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_FILE_READ_FAILED">
+            * USER File read failed                               */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_INVALID_FILETYPE">
+            * USER File type invalid                              */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_USR_FILENAME_INVALID">
+            * USER File name not valid                            */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_FW_FILE_OPEN_FAILED">
+            * USER Firmware file not opened                       */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_FW_FILE_SIZE_ZERO">
+            * USER Firmware file size zero                        */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_FW_FILE_NO_MEMORY">
+            * USER Not enough memory to load firmware file        */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_FW_FILE_READ_FAILED">
+            * USER Firmware file read failed                      */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_FW_INVALID_FILETYPE">
+            * USER Firmware file type invalid                     */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_FW_FILENAME_INVALID">
+            * USER Firmware file name not valid                   */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_FW_DOWNLOAD_ERROR">
+            * USER Firmware file download error                   */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_FW_FILENAME_NOT_FOUND">
+            * USER Firmware file not found in the internal table  */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_FW_BOOTLOADER_ACTIVE">
+            * USER Firmware file BOOTLOADER active                */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_FW_NO_FILE_PATH">
+            * USER Firmware file no file path                     */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_CF_FILE_OPEN_FAILED">
+            * USER Configuration file not opend                   */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_CF_FILE_SIZE_ZERO">
+            * USER Configuration file size zero                   */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_CF_FILE_NO_MEMORY">
+            * USER Not enough memory to load configuration file   */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_CF_FILE_READ_FAILED">
+            * USER Configuration file read failed                 */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_CF_INVALID_FILETYPE">
+            * USER Configuration file type invalid                */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_CF_FILENAME_INVALID">
+            * USER Configuration file name not valid              */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_CF_DOWNLOAD_ERROR">
+            * USER Configuration file download error              */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_CF_FILE_NO_SEGMENT">
+            * USER No flash segment in the configuration file     */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_CF_DIFFERS_FROM_DBM">
+            * USER Configuration file differs from database       */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DBM_SIZE_ZERO">
+            * USER Database size zero                             */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DBM_NO_MEMORY">
+            * USER Not enough memory to upload database           */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DBM_READ_FAILED">
+            * USER Database read failed                           */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_DBM_NO_FLASH_SEGMENT">
+            * USER Database segment unknown                       */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_INVALID_DESCRIPT_VERSION">
+            * CONFIG Version of the descript table invalid        */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_INVALID_INPUT_OFFSET">
+            * CONFIG Input offset is invalid                      */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_NO_INPUT_SIZE">
+            * CONFIG Input size is 0                              */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_MISMATCH_INPUT_SIZE">
+            * CONFIG Input size does not match configuration      */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_INVALID_OUTPUT_OFFSET">
+            * CONFIG Invalid output offset                        */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_NO_OUTPUT_SIZE">
+            * CONFIG Output size is 0                             */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_MISMATCH_OUTPUT_SIZE">
+            * CONFIG Output size does not match configuration     */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_STN_NOT_CONFIGURED">
+            * CONFIG Station not configured                       */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_CANNOT_GET_STN_CONFIG">
+            * CONFIG Cannot get the Station configuration         */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_MODULE_DEF_MISSING">
+            * CONFIG Module definition is missing                 */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_MISMATCH_EMPTY_SLOT">
+            * CONFIG Empty slot mismatch                          */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_MISMATCH_INPUT_OFFSET">
+            * CONFIG Input offset mismatch                        */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_MISMATCH_OUTPUT_OFFSET">
+            * CONFIG Output offset mismatch                       */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_MISMATCH_DATA_TYPE">
+            * CONFIG Data type mismatch                           */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DEV_CF_MODULE_DEF_MISSING_NO_SI">
+            * CONFIG Module definition is missing,(no Slot/Idx)   */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_RCS_ERROR_OFFSET">
+            * RCS error number start                              */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.STATE_IN">
+            * State information in bWriteState and bReadState */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.COMSTATE.usMode">
+            * Actual STATE mode                              */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.COMSTATE.usStateFlag">
+            * State flag                                     */
+        </member>
+        <member name="F:Idpsa.Control.Manuals.ViewControl.ControlStringDysplay.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlStringDysplay.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlStringDysplay.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.Manuals.ViewControl.ControlBitEvaluable.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlBitEvaluable.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlBitEvaluable.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.RfidReader.ReadCode(System.String@)">
+            <summary>
+            Lee el codigo RFID.
+            </summary>
+            <param name="code">Parametro de salida. Contiene el codigo leido.</param>
+            <returns>TRUE: si ha leido codigo RFID. 
+                     FALSE: en caso contrario</returns>
+        </member>
+        <member name="F:Idpsa.Control.View.FormSplash.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.View.FormSplash.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.View.FormSplash.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.ServerSocket.#ctor">
+            <summary>
+            Constructor parametrizado de la clase. Inicializa los atributos y lanza
+            el hilo de conexion.
+            </summary>
+            <param name="pgr"></param>
+        </member>
+        <member name="M:Idpsa.Control.Component.ServerSocket.doConexion">
+            <summary>
+            Acepta conexiones de entrada
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.ServerSocket.Listener">
+            <summary>
+            Hilo de escucha. Recibe datos via socket
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.ServerSocket.SendData(System.String)">
+            <summary>
+            Envia datos via sockets
+            </summary>
+            <param name="data">Cadena de datos que se envia</param>
+        </member>
+        <member name="M:Idpsa.Control.Component.ServerSocket.CloseSockets">
+            <summary>
+            Cierra los sockects abiertos y elimina los hilos de escucha
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.ServerSocket.OnDataReceived(System.Object)">
+            <summary>
+            Evento generado por la clase al recibir datos por el socket.
+            </summary>
+            <param name="data">Los datos leidos.</param>
+        </member>
+        <member name="F:Idpsa.Control.Manuals.ViewControl.ControlTitle.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlTitle.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlTitle.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.Manuals.ViewControl.ControlDataDysplayer`1.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlDataDysplayer`1.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.Manuals.ViewControl.ControlDataDysplayer`1.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="T:My.Resources.Resources">
+            <summary>
+              Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+            </summary>
+        </member>
+    </members>
+</doc>

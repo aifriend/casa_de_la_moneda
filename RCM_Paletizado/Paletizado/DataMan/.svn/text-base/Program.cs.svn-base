@@ -1,0 +1,80 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+
+using SLXDatamanController.View;
+using SLXDatamanController.Utils;
+
+namespace SLXDatamanController
+{
+    public class Program
+    {
+        #region private members
+        private SLXMainFrm mainFrm;
+        private SLXController controller;
+        #endregion
+
+        #region delegates
+        public delegate void MyFirstDelegate(object data);
+        #endregion
+        #region events
+        public event MyFirstDelegate ImageReady;
+        #endregion
+
+        public Program()
+        {
+            controller  = new SLXController(this);
+            mainFrm = new SLXMainFrm(this);
+        }
+        public void ConnectDataman()
+        {
+            System.Threading.Thread thr = new System.Threading.Thread(new System.Threading.ThreadStart(controller.Connect));
+            thr.Start();
+        }
+        public void Disconnect()
+        {
+            controller.Disconnect();
+        }
+        public void TestDataman()
+        {
+            controller.Test();
+        }
+        public void UpdateStatus(string status)
+        {
+            mainFrm.SetStatus(status);
+        }
+        public void ShowFrm()
+        {
+            mainFrm.Show();
+        }
+        public void LaunchEvent(System.Drawing.Bitmap bmp)
+        {
+            OnImageReady(bmp);
+        }
+        public void OnImageReady(object data)
+        {
+            if (ImageReady != null)
+            {
+                ImageReady(data);
+            }
+        }
+        /// <summary>
+        /// Devuelve el estado de la conexíon del lector.
+        /// </summary>
+        /// <returns>TRUE: conectado. FALSE: desconectado.</returns>
+        public bool Status()
+        {
+            return controller.Status;
+        }
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Program pgr = new Program();
+
+        }
+    }
+}

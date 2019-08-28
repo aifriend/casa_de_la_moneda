@@ -1,0 +1,222 @@
+<Title (Simbolico pasaportes)>
+
+<Device(A010, Tarjetero General Casilleros, Id=10)> 
+    
+    <Inputs(0)>
+
+	*A010A
+                 0.0;S900; EMERGENCIA ARMARIO ACTUADA
+                 0.1;K911D;EMERGENCIA OK
+                 0.2;K912B;MANDO CONECTADO
+                 0.3;F214;24VCC COMPAX 3
+                 0.4;F710;TERMICO MOTOR EJE X
+                 0.5;F711;TERMICO MOTOR EJE Y
+                 0.6;Q730;TÉRMICO MOTOR MESA AGRUPADO
+                 0.7;Q731;TÉRMICO MOTOR BANDA FAJADO
+	*A010B
+                 1.0;S930;PERMISO PUERTA IZQUIERDA
+                 1.1;S931;REARME PUERTA IZQUIERDA
+                 1.2;A610_S901;CONEXION MANDO
+                 1.3;A610_S900;EMERGENCIA PANEL MANDO
+                 1.4;A610_S902;DESCONEXION MANDO
+                 1.5;A610_S932;REARME PUERTA DERECHA
+                 1.6;A610_S933;PERMISO PUERTA DERECHA
+                 1.7;Q732;TÉRMICO MOTOR BANDA SALIDA  
+	*A010C
+                 2.0;A900_S900;EMERGENCIA 1
+                 2.1;A901_S900;EMERGENCIA 2
+                 2.2;A902_S900;EMERGENCIA 3
+                 *Error eplan: A y B para diferenciar no deben ser la misma complementada
+                 2.4;B981A;PUERTA PROTECCION CASILLERO IZQ
+                 2.5;B981B;PUERTA IZQUIERDA ENCLAVADA
+                 2.6;B982A;PUERTA PROTECCION CASILLERO DCH
+                 2.7;B982B;PUERTA DERECHA ENCLAVADA
+	*A010D
+                 3.0;B983;PUERTA PROTECCION POSTERIOR
+                 3.6;E_A010_X1_X1;PRESENCIA AIRE
+	*A010E
+                 4.0;B303A_010;CILINDRO EMPUJADOR PINZA TRABAJO
+                 4.1;B303B_010;CILINDRO EMPUJADOR PINZA REPOSO
+                 4.2;B401B;CILINDRO PINZA CERRADA
+                 4.3;B501;CILINDRO GIRO PINZA TRABAJO
+                 4.4;B502;CILINDRO GIRO PINZA REPOSO
+                 4.5;B503;CILINDRO GIRO PINZA POS. INTERMEDIA
+                 4.6;B401A;CILINDRO PINZA ABIERTA
+                 *A010F
+
+    <Outputs(0)>
+
+	*A010H
+                0.0;K950;EMERGENCIA OK
+                0.1;K951;CONEXION MANDO
+                0.2;K918;BUS OK
+                0.4;H990:1; ELEMENTO BALIZA AZUL
+                0.5;H990:2;ELEMENTO BALIZA VERDE
+                0.6;H990:3;ELEMENTO BALIZA NARANJA
+                0.7;H990:4;ELEMENTO BALIZA ROJO
+	*A010I
+                1.0;H930;PERMISO PUERTA IZQUIERDA
+                1.1;H931;REARME PUERTA IZQUIERDA
+                1.2;H901;CONEXION MANDO
+                1.3;H902;DESCONEXION MANDO
+                1.4;H932;REARME PUERTA DERECHA
+                1.5;H933;PERMISO PUERTA DERECHA
+                1.6;B981;ANCLAR PUERTA IZQUIERDA
+                1.7;B982;ANCLAR PUERTA IZQUIERDA
+	*A010J
+                2.0;K730;MESA AGRUPADO
+                2.3;K981;PUENTEAR PUERTA IZQUIERDA
+                2.2;K732;ENTRADA ENCAJADORA
+                2.1;K731;MESA LECTURA
+                2.4;K982;PUENTEAR PUERTA DERECHA
+                2.6;Y085;VALVULA GENERAL AIRE
+	*A010K
+                3.0;Y303_010;VALVULA EMPUJADOR PINZA
+                3.1;Y501;GIRO PINZA TRABAJO
+                3.2;Y502_010;GIRO PINZA REPOSO
+                3.3;Y503;GIRO PINZA INTERMEDIO
+                3.4;Y401A;PINZA TRABAJO
+                3.5;Y401B;PINZA REPOSO
+	*A010L
+                 4.0;K952A;MARCHA VARIADOR MESA AGRUPADO
+                 4.1;K952B;SELECCIÓN VELOCIDAD VARIADOR MESA AGRUPADO
+                 4.2;K953A;MARCHA VARIADOR BANDA FAJADO
+                 4.3;K954B; SELECCIÓN VELOCIDAD VARIADOR MESA AGRUPADO
+	*A010M
+	
+<EndDevice>
+
+<Device(A011 -Tarjetero Casillero Izq., Id=12)> 
+
+          <Inputs(51, Pulsadores casillero)>
+
+  	   *A011/1 - A011/15
+           For (0,15) [S&bit&B Izq., Confirmar  pasaportes &bit-&B Izq.]
+
+
+ 	   <Inputs(66, Resto)>
+	   *A016/16 
+           0.0;B304A;CILINDRO TOPE FAJADORA TRABAJO
+           0.1;B304B;CILINDRO TOPE FAJADORA REPOSO
+           0.2;B305A;CILINDRO EMPUJADOR FAJADORA TRABAJO
+           0.3;B305B;CILINDRO EMPUJADOR FAJADORA REPOSO
+           0.4;B306A;CILINDRO SALIDA FAJADORA TRABAJO
+           0.5;B306B;CILINDRO SALIDA FAJADORA REPOSO
+           0.6;B808;PRESENCIA EN EMPUJADOR
+           0.7;B809;PRESENCIA LECTOR RFID
+	     *A016/17 
+           1.0;B810;PRESENCIA ENTRADA TRANSPORTE ANCAJADORA
+           1.1;B811;PRESENCIA SALIDA TRANSPORTE ENCAJADORA
+           
+           *Simbólicos entrada fajadora provisionales
+           1.4;FajadoraOcupado;Ocupado fajadora
+           1.5;FajadoraError;Error fajadora
+           1.6;FajadoraListo;Listo fajadora
+           1.7;FajadoraEnEspera;En espera fajadora
+      
+           <Outputs(50, Leds casilero)>     
+ 	   *A011/18- A011/32
+           For (0,15) [R&bit&B Izq., Completar posicion &bit-&B Izq.]
+
+           <Outputs(65, Resto)>
+           *A011/33
+           0.0;Y304;VALVULA TOPE FLEJADORA
+           0.1;Y305;VALVULA EMPUJADOR ENTRADA FAJADORA
+           0.2;Y306;VALVULA EMPUJADOR SALIDA FAJADORA
+           
+           *Simbólico mando fajadora provisional
+           0.4;FajadoraMandoExterno; Mando externo fajadora
+         
+<EndDevice>
+
+
+<Device(A012, Tarjetero Casillero Der., Id=14)> 
+
+	<Inputs(68, Pulsadores casillero)>
+
+ 	     *A012/1 - A012/15 
+           For (0,15) [S&bit&B Dch., Confirmar  pasaportes &bit-&B Dch.]
+
+      <Inputs(83, Resto)>
+
+           *A012/16
+           *Modificación: ahora la targeta está en reserva (2-11-09)
+           *0.0;B202A;CILINDRO TRAMPILLA TOLVA TRABAJO
+           *0.1;B202B;CILINDRO TRAMPILLA TOLVA REPOSO
+           *0.2;B601A;VENTOSA TRABAJO
+           *0.3;B502A;GIRO PASAPORTE TRABAJO
+           *0.4;B502B;GIRO PASAPORTE REPOSO
+           *0.5;B801;PRESENCIA PREVIA 1
+           *0.6;B802;PRESENCIA PREVIA 2
+           *0.7;B803;PRESENCIA PREVIA 3
+           *A012/17
+           *1.0;B804;PRESENCIA ENTRADA TOLVA
+           *1.1;B301A;EMPUJADOR TRABAJO
+           *1.2;B301B;EMPUJADOR REPOSO
+           *1.3;B805;INDUCTIVO POSICIONAMIENTO
+           *1.4;B806;PRESENCIA RECHAZO
+           *1.5;B201A;CERRADOR TRABAJO
+           *1.6;B201B;CERRADOR REPOSO
+           *1.7;B807;PRESENCIA COGIDA
+          
+            1.0;B804;PRESENCIA ENTRADA TOLVA
+            1.1;B410A;UÑA IZQUIERDA ABIERTA
+            1.2;B301A;EMPUJADOR TRABAJO
+            1.3;B201A;CERRADOR TRABAJO
+            1.4;B301B;EMPUJADOR REPOSO
+            1.5;B201B;CERRADOR REPOSO
+            1.6;B805;INDUCTIVO POSICIONAMIENTO
+            1.7;B807;PRESENCIA COGIDA 
+            
+
+
+           *A012/18
+           *2.0;B303A_012;EMPUJADOR RECHAZO TRABAJO
+           *2.2;B303B_012;EMPUJADOR RECHAZO REPOSO          
+            
+           2.0;B303A;EMPUJADOR RECHAZO TRABAJO
+           2.1;B310A;GIRO ARRIBA
+           2.2;B303B;EMPUJADOR RECHAZO REPOSO     
+           2.3;B310B;GIRO ABAJO   
+           2.4;B410B;UÑA DERECHA ABIERTA
+           2.5;B502A;GIRO POSICIÓN 1 
+           2.6;B502B;GIRO POSICIÓN 2
+    
+      
+        <Outputs(66, Leds casillero)>
+
+	     *A012/19 - A012/33
+           For (0,15) [R&bit&B Dch., Completar posicion &bit-&B Dch.]
+
+
+      <Outputs(81, Resto)>
+           *A012/34
+           *0.0;Y202;APROXIMACION VENTOSA
+           *0.1;Y502_012;GIRO PASAPORTE 
+           *0.2;V601;VENTOSA
+           *0.3;Y303_012;EMPUJADOR RECHAZO
+           *0.4;Y301;TRAMPILLA TOLVA
+           *0.5;Y201;CERRADOR GRUPO PASAPORTES 
+
+           0.0;Y310;GIRO  ARRIBA
+           0.1;Y502A_012;GIRO POSICIÓN 1 
+           0.2;Y410;UÑA ABIERTA
+           0.3;Y303_012;EMPUJADOR RECHAZO
+           0.4;Y301;EMPUJADOR
+           0.5;Y201;CERRADOR GRUPO PASAPORTES 
+           0.6;Y502B_012;GIRO POSICIÓN 2
+
+
+
+<EndDevice>
+
+<Device(A710, Compax Eje X, Id=30>
+      <Inputs(7)>
+      <Outputs(6)>
+<EndDevice>
+
+<Device(A711, Compax Eje Y, Id=31>
+      <Inputs(29)>
+      <Outputs(28)>
+<EndDevice>
+

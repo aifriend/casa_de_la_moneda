@@ -1,0 +1,60 @@
+using System.Runtime.InteropServices; // DllImport
+namespace Idpsa
+{
+    
+    [System.Serializable()]
+    public class clsLectorRfidDecipheIt:clsLectorRfid
+    {
+       
+        public clsLectorRfidDecipheIt(string name) : base(name) {}
+        public clsLectorRfidDecipheIt() : base("deciphe it RFID Reader 0") { }
+        
+        public override bool ConnectReader()
+        {
+            Init();
+            if (Connect(name) == 1)
+            {
+                Connected = true;
+                return true;
+            }
+            return false;
+        }
+        public override bool DisconnectReader()
+        {
+            if (Disconnect() == 1)
+            {
+                Connected = false;
+                return true;
+            }
+            return false;
+        }
+        /// <summary>
+        /// Lee el codigo RFID.
+        /// </summary>
+        /// <param name="code">Parametro de salida. Contiene el codigo leido.</param>
+        /// <returns>TRUE: si ha leido codigo RFID. 
+        ///          FALSE: en caso contrario</returns>
+        public override bool ReadCode(out string code)
+        {
+            bool found = false;
+            code = Read(ref found);
+            lastReadedCode = code;
+            return found;
+        }
+
+        public override void Dispose()
+        {
+            Disconnect();
+        }
+
+        [DllImport("RFID.dll")]
+        public static extern void Init();
+        [DllImport("RFID.dll")]
+        public static extern int Connect(string name);
+        [DllImport("RFID.dll")]
+        public static extern int Disconnect();
+        [DllImport("RFID.dll")]
+        public static extern string Read(ref bool found);
+
+    }
+}

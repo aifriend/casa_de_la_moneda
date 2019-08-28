@@ -1,0 +1,28 @@
+C:\Users\alberto\Documents\Visual Studio 2008\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alberto\Documents\Visual Studio 2008\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form1.resources
+C:\Users\alberto\Documents\Visual Studio 2008\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\alberto\Documents\Visual Studio 2008\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\alberto\Documents\Visual Studio 2008\Projects\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\alberto\Documents\Visual Studio 2008\Projects\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\alberto\Documents\Visual Studio 2008\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\alberto\Documents\Visual Studio 2008\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+F:\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+F:\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Trabajo\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Trabajo\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Trabajo\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Trabajo\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form1.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Trabajo\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Trabajo\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Trabajo\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Trabajo\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\alberto\Desktop\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\alberto\Desktop\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\alberto\Desktop\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alberto\Desktop\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form1.resources
+C:\Users\alberto\Desktop\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\alberto\Desktop\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\alberto\Desktop\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\alberto\Desktop\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Trabajo\SimbolicBuilder\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Trabajo\SimbolicBuilder\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb

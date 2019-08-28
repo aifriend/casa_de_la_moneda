@@ -1,0 +1,30 @@
+C:\Copias Seguridad\RCM_Paletizado.OLD\GeneralMatrix\bin\Debug\GeneralMatrix.dll
+C:\Copias Seguridad\RCM_Paletizado.OLD\GeneralMatrix\bin\Debug\GeneralMatrix.pdb
+C:\Copias Seguridad\RCM_Paletizado.OLD\GeneralMatrix\obj\Debug\ResolveAssemblyReference.cache
+C:\Copias Seguridad\RCM_Paletizado.OLD\GeneralMatrix\obj\Debug\GeneralMatrix.dll
+C:\Copias Seguridad\RCM_Paletizado.OLD\GeneralMatrix\obj\Debug\GeneralMatrix.pdb
+C:\Copias Seguridad\RCM_Paletizado.TRY\GeneralMatrix\bin\Debug\GeneralMatrix.dll
+C:\Copias Seguridad\RCM_Paletizado.TRY\GeneralMatrix\bin\Debug\GeneralMatrix.pdb
+C:\Copias Seguridad\RCM_Paletizado.TRY\GeneralMatrix\obj\Debug\ResolveAssemblyReference.cache
+C:\Copias Seguridad\RCM_Paletizado.TRY\GeneralMatrix\obj\Debug\GeneralMatrix.dll
+C:\Copias Seguridad\RCM_Paletizado.TRY\GeneralMatrix\obj\Debug\GeneralMatrix.pdb
+C:\Proyectos\PALETIZADO\is2903 Paletizado\GeneralMatrix\bin\Debug\GeneralMatrix.dll
+C:\Proyectos\PALETIZADO\is2903 Paletizado\GeneralMatrix\bin\Debug\GeneralMatrix.pdb
+C:\Proyectos\PALETIZADO\is2903 Paletizado\GeneralMatrix\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\PALETIZADO\is2903 Paletizado\GeneralMatrix\obj\Debug\GeneralMatrix.dll
+C:\Proyectos\PALETIZADO\is2903 Paletizado\GeneralMatrix\obj\Debug\GeneralMatrix.pdb
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\GeneralMatrix\bin\Debug\GeneralMatrix.dll
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\GeneralMatrix\bin\Debug\GeneralMatrix.pdb
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\GeneralMatrix\obj\Debug\ResolveAssemblyReference.cache
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\GeneralMatrix\obj\Debug\GeneralMatrix.dll
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\GeneralMatrix\obj\Debug\GeneralMatrix.pdb
+C:\Copias Seguridad\RCM_paletizado\GeneralMatrix\bin\Debug\GeneralMatrix.dll
+C:\Copias Seguridad\RCM_paletizado\GeneralMatrix\bin\Debug\GeneralMatrix.pdb
+C:\Copias Seguridad\RCM_paletizado\GeneralMatrix\obj\Debug\ResolveAssemblyReference.cache
+C:\Copias Seguridad\RCM_paletizado\GeneralMatrix\obj\Debug\GeneralMatrix.dll
+C:\Copias Seguridad\RCM_paletizado\GeneralMatrix\obj\Debug\GeneralMatrix.pdb
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\GeneralMatrix\bin\Debug\GeneralMatrix.dll
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\GeneralMatrix\bin\Debug\GeneralMatrix.pdb
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\GeneralMatrix\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\GeneralMatrix\obj\Debug\GeneralMatrix.dll
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\GeneralMatrix\obj\Debug\GeneralMatrix.pdb

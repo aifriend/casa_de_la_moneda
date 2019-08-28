@@ -1,0 +1,880 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IDPSA.Controller</name>
+    </assembly>
+    <members>
+        <member name="F:Idpsa.Control.View.ControlDynamic.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.View.ControlDynamic.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.View.ControlDynamic.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.Tool.TDictionary`2.Lock_Dictionary">
+            <summary>
+            Lock for the dictionary
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.Tool.TDictionary`2.m_Dictionary">
+            <summary>
+            The base dictionary
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.#ctor">
+            <summary>
+            Initializes the dictionary object
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.#ctor(System.Int32)">
+            <summary>
+            Initializes the dictionary object
+            </summary>
+            <param name="capacity">initial capacity of the dictionary</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.#ctor(System.Collections.Generic.IEqualityComparer{`0})">
+            <summary>
+            Initializes the dictionary object
+            </summary>
+            <param name="comparer">the comparer to use when comparing keys</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})">
+            <summary>
+            Initializes the dictionary object
+            </summary>
+            <param name="dictionary">the dictionary whose keys and values are copied to this object</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+            <summary>
+            Initializes the dictionary object
+            </summary>
+            <param name="capacity">initial capacity of the dictionary</param>
+            <param name="comparer">the comparer to use when comparing keys</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1},System.Collections.Generic.IEqualityComparer{`0})">
+            <summary>
+            Initializes the dictionary object
+            </summary>
+            <param name="dictionary">the dictionary whose keys and values are copied to this object</param>
+            <param name="comparer">the comparer to use when comparing keys</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.GetValueAddIfNotExist(`0,System.Func{`1})">
+            <summary>
+            Returns the value of <paramref name="key"/>. If <paramref name="key"/>
+            does not exist, <paramref name="func"/> is performed and added to the 
+            dictionary
+            </summary>
+            <param name="key">the key to check</param>
+            <param name="func">the delegate to call if key does not exist</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.Add(`0,`1)">
+            <summary>
+            Adds an item to the dictionary
+            </summary>
+            <param name="key">the key to add</param>
+            <param name="value">the value to add</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.AddIfNotExists(`0,`1)">
+            <summary>
+            Adds the value if it's key does not already exist. Returns
+            true if the value was added
+            </summary>
+            <param name="key">the key to check, add</param>
+            <param name="value">the value to add if the key does not already exist</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.AddIfNotExists(System.Collections.Generic.IEnumerable{`0},`1)">
+            <summary>
+            Adds the list of value if the keys do not already exist.
+            </summary>
+            <param name="keys">the keys to check, add</param>
+            <param name="defaultValue">the value to add if the key does not already exist</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.UpdateValueIfKeyExists(`0,`1)">
+            <summary>
+            Updates the value of the key if the key exists. Returns true if updated
+            </summary>
+            <param name="key"></param>
+            <param name="NewValue"></param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})">
+            <summary>
+            Returns true if the key value pair exists in the dictionary
+            </summary>
+            <param name="item">key value pair to find</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.ContainsKey(`0)">
+            <summary>
+            Returns true if the key exists in the dictionary
+            </summary>
+            <param name="key">the key to find in the dictionary</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.ContainsValue(`1)">
+            <summary>
+            Returns true if the dictionary contains this value
+            </summary>
+            <param name="value">the value to find</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.Remove(`0)">
+            <summary>
+            Removes the element with this key name
+            </summary>
+            <param name="key">the key to remove</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})">
+            <summary>
+            Removes the element with this key name and value. Returns
+            true if the item was removed.
+            </summary>
+            <param name="item">the key to remove</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.Remove(System.Predicate{`0},System.Predicate{`1})">
+            <summary>
+            Removes items from the dictionary that match a pattern. Returns true
+            on success
+            </summary>
+            <param name="predKey">Optional expression based on the keys</param>
+            <param name="predValue">Option expression based on the values</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.TryGetValue(`0,`1@)">
+            <summary>
+            Attemtps to return the value found at element <paramref name="key"/>
+            If no value is found, returns false
+            </summary>
+            <param name="key">the key to find</param>
+            <param name="value">the value returned if the key is found</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.Clear">
+            <summary>
+            Clears the dictionary
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)">
+            <summary>
+            Copies the items of the dictionary to a key value pair array
+            </summary>
+            <param name="array">the key value pair collection to copy into</param>
+            <param name="arrayIndex">the index to begin copying to</param>
+        </member>
+        <member name="P:Idpsa.Control.Tool.TDictionary`2.Keys">
+            <summary>
+            Returns the keys as a collection
+            </summary>
+        </member>
+        <member name="P:Idpsa.Control.Tool.TDictionary`2.Values">
+            <summary>
+            Returns a collection of the values in the dictionary
+            </summary>
+        </member>
+        <member name="P:Idpsa.Control.Tool.TDictionary`2.Count">
+            <summary>
+            Returns the number of items in the dictionary
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.SocketListener`2.Manager">
+            <summary>
+            Server needs to keep alive in order to listen for connections.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.SocketListener`2.Accept(System.IAsyncResult)">
+            <summary>
+            Starts when an incomming connection was requested
+            </summary>            
+        </member>
+        <member name="M:Idpsa.Control.Component.SocketListener`2.Receive(System.IAsyncResult)">
+            <summary>
+            Receives the data, puts it in a buffer and checks if we need to receive again.
+            </summary>            
+        </member>
+        <member name="M:Idpsa.Control.Component.SocketListener`2.Done(Idpsa.Control.Component.SocketSerializer{`1})">
+            <summary>
+            Deserializes and outputs the received object
+            </summary>            
+        </member>
+        <member name="T:Idpsa.Controller.Properties.Resources">
+            <summary>
+              Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Idpsa.Controller.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Idpsa.Controller.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.RfidReader.ReadCode(System.String@)">
+            <summary>
+            Lee el codigo RFID.
+            </summary>
+            <param name="code">Parametro de salida. Contiene el codigo leido.</param>
+            <returns>TRUE: si ha leido codigo RFID. 
+                     FALSE: en caso contrario</returns>
+        </member>
+        <member name="F:Idpsa.Control.View.ControlReader.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.View.ControlReader.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.View.ControlReader.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.View.ControlEvaluable.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.View.ControlEvaluable.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.View.ControlEvaluable.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.View.ControlTitle.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.View.ControlTitle.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.View.ControlTitle.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.View.ControlEthernet.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.View.ControlEthernet.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.View.ControlEthernet.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.DRV_NO_ERROR">
+            * ------------------------------------------------------------------------------------ */
+            *  driver errors                                                                       */
+            * ------------------------------------------------------------------------------------ */
+            * no error                                            */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.ComState.UsMode">
+            * Actual STATE mode                              */
+        </member>
+        <member name="F:Idpsa.Control.Component.ProfibusController.ComState.UsStateFlag">
+            * State flag                                     */
+        </member>
+        <member name="F:Idpsa.Control.View.ControlDataDysplayer`1.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.View.ControlDataDysplayer`1.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.View.ControlDataDysplayer`1.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar 
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="T:Idpsa.Control.Tool.TQueue`1">
+            <summary>
+            Represents a First-In, First-Out thread-safe collection of objects
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:Idpsa.Control.Tool.TQueue`1.LockQ">
+            <summary>
+            Lock for the Q
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.Tool.TQueue`1.m_Queue">
+            <summary>
+            The private q which holds the actual data
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.Tool.TQueue`1.objSyncRoot">
+            <summary>
+            Used only for the SyncRoot properties
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.#ctor">
+            <summary>
+            Initializes the Queue
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.#ctor(System.Int32)">
+            <summary>
+            Initializes the Queue
+            </summary>
+            <param name="capacity">the initial number of elements the queue can contain</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Initializes the Queue
+            </summary>
+            <param name="collection">the collection whose members are copied to the Queue</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that enumerates through the collection
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.GetEnumerator">
+            <summary>
+            Returns an enumerator that enumerates through the collection
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.CopyTo(System.Array,System.Int32)">
+            <summary>
+            Copies the Queue's elements to an existing array
+            </summary>
+            <param name="array">the one-dimensional array to copy into</param>
+            <param name="index">the zero-based index at which copying begins</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.CopyTo(`0[],System.Int32)">
+            <summary>
+            Copies the Queue's elements to an existing array
+            </summary>
+            <param name="array">the one-dimensional array to copy into</param>
+            <param name="index">the zero-based index at which copying begins</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.Enqueue(`0)">
+            <summary>
+            Adds an item to the queue
+            </summary>
+            <param name="item">the item to add to the queue</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.Dequeue">
+            <summary>
+            Removes and returns the item in the beginning of the queue
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.EnqueueAll(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Enqueues the list of items
+            </summary>
+            <param name="ItemsToQueue">list of items to enqueue</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.EnqueueAll(Idpsa.Control.Tool.TList{`0})">
+            <summary>
+            Enqueues the list of items
+            </summary>
+            <param name="ItemsToQueue">list of items to enqueue</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.DequeueAll">
+            <summary>
+            Dequeues all the items and returns them as a thread safe list
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.Clear">
+            <summary>
+            Removes all items from the queue
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.Contains(`0)">
+            <summary>
+            Determines whether the item exists in the Queue
+            </summary>
+            <param name="item">the item to find in the queue</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.Peek">
+            <summary>
+            Returns the item at the start of the Queue without removing it
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.ToArray">
+            <summary>
+            Copies the Queue to a new array
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TQueue`1.TrimExcess">
+            <summary>
+            Sets the capacity of the Queue to the current number of items, if that number
+            is less than 90 percent of the current capacity
+            </summary>
+        </member>
+        <member name="P:Idpsa.Control.Tool.TQueue`1.Count">
+            <summary>
+            Returns the number of items in the Queue
+            </summary>
+        </member>
+        <!-- El comentario XML con formato incorrecto se omite para el miembro "T:Idpsa.Control.Tool.TList`1" -->
+        <member name="F:Idpsa.Control.Tool.TList`1.LockList">
+            <summary>
+            The lock used when accessing the list
+            </summary>
+        </member>
+        <member name="F:Idpsa.Control.Tool.TList`1.m_TList">
+            <summary>
+            The container list that holds the actual data
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.#ctor">
+            <summary>
+            Creates an empty threaded list object
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.#ctor(System.Int32)">
+            <summary>
+            Creates an empty threaded list object
+            </summary>
+            <param name="capacity">the number of elements the list can initially store</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Creates an empty threaded list object
+            </summary>
+            <param name="collection">a collection of objects which are copied into the threaded list</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.GetEnumerator">
+            <summary>
+            Returns an enumerator to iterate through the collection
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator">
+            <summary>
+            Returns an enumerator to iterate through the collection
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Remove(`0)">
+            <summary>
+            Removes this item from the list
+            </summary>
+            <param name="item">the item to remove</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Dispose">
+            <summary>
+            Dispose of the object
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.GetRange(System.Int32,System.Int32)">
+            <summary>
+            Creates a shallow copy of the range of elements in the source
+            </summary>
+            <param name="index">index to start from</param>
+            <param name="count">number of elements to return</param>
+            <returns></returns>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.IndexOf(`0)">
+            <summary>
+            Searches the list and returns the index of the item found in the list
+            </summary>
+            <param name="item">the item to find</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.IndexOf(`0,System.Int32)">
+            <summary>
+            Searches the list and returns the index of the item found in the list
+            </summary>
+            <param name="item">the item to find</param>
+            <param name="index">the zero-based index to begin searching from</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.IndexOf(`0,System.Int32,System.Int32)">
+            <summary>
+            Searches the list and returns the index of the item found in the list
+            </summary>
+            <param name="item">the item to find</param>
+            <param name="index">the zero-based index to begin searching from</param>
+            <param name="count">the number of elements to search</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Insert(System.Int32,`0)">
+            <summary>
+            Inserts the item into the list
+            </summary>
+            <param name="index">the index at which to insert the item</param>
+            <param name="item">the item to insert</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Insert a range of objects into the list
+            </summary>
+            <param name="index">index to insert at</param>
+            <param name="range">range of values to insert</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.LastIndexOf(`0)">
+            <summary>
+            Returns the last index of the item in the list
+            </summary>
+            <param name="item">the item to find</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.LastIndexOf(`0,System.Int32)">
+            <summary>
+            Returns the last index of the item in the list
+            </summary>
+            <param name="item">the item to find</param>
+            <param name="index">the index at which to start searching</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.LastIndexOf(`0,System.Int32,System.Int32)">
+            <summary>
+            Returns the last index of the item in the list
+            </summary>
+            <param name="item">the item to find</param>
+            <param name="index">the index at which to start searching</param>
+            <param name="count">number of elements to search</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.RemoveAll(System.Predicate{`0})">
+            <summary>
+            Removes all the matching items from the list
+            </summary>
+            <param name="match">the pattern to search on</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.RemoveAt(System.Int32)">
+            <summary>
+            Removes the item at the specified index
+            </summary>
+            <param name="index">the index of the item to remove</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.RemoveRange(System.Int32,System.Int32)">
+            <summary>
+            Removes the items from the list
+            </summary>
+            <param name="index">the index of the item to begin removing</param>
+            <param name="count">the number of items to remove</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Reverse">
+            <summary>
+            Reverses the order of elements in the list
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Reverse(System.Int32,System.Int32)">
+            <summary>
+            Reverses the order of elements in the list
+            </summary>
+            <param name="index">the index to begin reversing at</param>
+            <param name="count">the number of elements to reverse</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Sort">
+            <summary>
+            Sorts the items in the list
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Sort(System.Comparison{`0})">
+            <summary>
+            Sorts the items in the list
+            </summary>
+            <param name="comparison">the comparison to use when comparing elements</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Sort(System.Collections.Generic.IComparer{`0})">
+            <summary>
+            Sorts the items in the list
+            </summary>
+            <param name="comparer">the comparer to use when comparing elements</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Sort(System.Int32,System.Int32,System.Collections.Generic.IComparer{`0})">
+            <summary>
+            Sorts the items in the list
+            </summary>
+            <param name="index">the index to begin sorting at</param>
+            <param name="count">the number of elements to sort</param>
+            <param name="comparer">the comparer to use when sorting</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.ToArray">
+            <summary>
+            Copies the elements of the list to an array
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.TrimExcess">
+            <summary>
+            Sets the capacity to the actual number of elements in the list, if that 
+            number is less than the threshold
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.TrueForAll(System.Predicate{`0})">
+            <summary>
+            Determines whether all members of the list matches the conditions in the predicate
+            </summary>
+            <param name="match">the delegate which defines the conditions for the search</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Add(`0)">
+            <summary>
+            Adds an item to the threaded list
+            </summary>
+            <param name="item">the item to add to the end of the collection</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.AddRange(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Adds the elements of collection to the end of the threaded list
+            </summary>
+            <param name="collection">the collection to add to the end of the list</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.AddIfNotExist(`0)">
+            <summary>
+            Adds an item to the threaded list if it is not already in the list.
+            Returns true if added to the list, false if the item already existed
+            in the list
+            </summary>
+            <param name="item">the item to add to the end of the collection</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.AsReadOnly">
+            <summary>
+            Returns a read-only collection of the current threaded list
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.BinarySearch(`0)">
+            <summary>
+            Searches the collection using the default comparator and returns the zero-based index of the item found
+            </summary>
+            <param name="item">the item to search for</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.BinarySearch(`0,System.Collections.Generic.IComparer{`0})">
+            <summary>
+            Searches the collection using the default comparator and returns the zero-based index of the item found
+            </summary>
+            <param name="item">the item to search for</param>
+            <param name="comparer">the IComparer to use when searching, or null to use the default</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.BinarySearch(System.Int32,System.Int32,`0,System.Collections.Generic.IComparer{`0})">
+            <summary>
+            Searches the collection using the default comparator and returns the zero-based index of the item found
+            </summary>
+            <param name="index">the zero-based index to start searching from</param>
+            <param name="count">the number of records to search</param>
+            <param name="item">the item to search for</param>
+            <param name="comparer">the IComparer to use when searching, or null to use the default</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Clear">
+            <summary>
+            Removes all items from the threaded list
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Contains(`0)">
+            <summary>
+            Returns true if the collection contains this item
+            </summary>
+            <param name="item">the item to find in the collection</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.ConvertAll``1(System.Converter{`0,``0})">
+            <summary>
+            Converts the elements of the threaded list to another type, and returns a list of the new type
+            </summary>
+            <typeparam name="TOutput">the destination type</typeparam>
+            <param name="converter">delegate to convert the items to a new type</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.CopyTo(`0[],System.Int32)">
+            <summary>
+            Copies the elements of this threaded list to a one-dimension array of the same type
+            </summary>
+            <param name="array">the destination array</param>
+            <param name="arrayIndex">index at which copying begins</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Exists(System.Predicate{`0})">
+            <summary>
+            Determines whether an item exists which meets the match criteria
+            </summary>
+            <param name="match">delegate that defines the conditions to search for</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.Find(System.Predicate{`0})">
+            <summary>
+            Searches for an element that matches the criteria
+            </summary>
+            <param name="match">delegate that defines the conditions to search for</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.FindAll(System.Predicate{`0})">
+            <summary>
+            Searches for elements that match the criteria
+            </summary>
+            <param name="match">delegate that defines the conditions to search for</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.FindIndex(System.Predicate{`0})">
+            <summary>
+            Returns the index of the element which matches the criteria
+            </summary>
+            <param name="match">delegate that defines the conditions to search for</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.FindIndex(System.Int32,System.Predicate{`0})">
+            <summary>
+            Returns the index of the element which matches the criteria
+            </summary>
+            <param name="startIndex">the zero-based index starting the search</param>
+            <param name="match">delegate that defines the conditions to search for</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.FindIndex(System.Int32,System.Int32,System.Predicate{`0})">
+            <summary>
+            Returns the index of the element which matches the criteria
+            </summary>
+            <param name="startIndex">the zero-based index starting the search</param>
+            <param name="count">the number of elements to search</param>
+            <param name="match">delegate that defines the conditions to search for</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.FindLast(System.Predicate{`0})">
+            <summary>
+            Searches for the last element in the collection that matches the criteria
+            </summary>
+            <param name="match">delegate that defines the conditions to search for</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.FindLastIndex(System.Predicate{`0})">
+            <summary>
+            Returns the last index of the element which matches the criteria
+            </summary>
+            <param name="match">delegate that defines the conditions to search for</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.FindLastIndex(System.Int32,System.Predicate{`0})">
+            <summary>
+            Returns the last index of the element which matches the criteria
+            </summary>
+            <param name="startIndex">the zero-based index starting the search</param>
+            <param name="match">delegate that defines the conditions to search for</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.FindLastIndex(System.Int32,System.Int32,System.Predicate{`0})">
+            <summary>
+            Returns the last index of the element which matches the criteria
+            </summary>
+            <param name="startIndex">the zero-based index starting the search</param>
+            <param name="count">the number of elements to search</param>
+            <param name="match">delegate that defines the conditions to search for</param>
+        </member>
+        <member name="M:Idpsa.Control.Tool.TList`1.ForEach(System.Action{`0})">
+            <summary>
+            Peforms the action on each element of the list
+            </summary>
+            <param name="action">the action to perfom</param>
+        </member>
+        <member name="P:Idpsa.Control.Tool.TList`1.Disposed">
+            <summary>
+            When true, we have already disposed of the object
+            </summary>
+        </member>
+        <member name="P:Idpsa.Control.Tool.TList`1.Capacity">
+            <summary>
+            Gets or sets the initial capacity of the list
+            </summary>
+        </member>
+        <member name="P:Idpsa.Control.Tool.TList`1.Count">
+            <summary>
+            Returns a count of the number of elements in this collection
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.CompaxC3I20T11.PkwCommand.PkwStructure.PkwC3Object.PNU_SubIndex.Equals(System.Object)">
+            <summary>
+            
+                                Determines whether the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />.
+                            
+            </summary>
+            
+            <returns>
+            true if the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />; otherwise, false.
+                            
+            </returns>
+            
+            <param name="obj">
+                                The <see cref="T:System.Object" /> to compare with the current <see cref="T:System.Object" />. 
+                            </param>
+            <exception cref="T:System.NullReferenceException">
+                                The <paramref name="obj" /> parameter is null.
+                            </exception><filterpriority>2</filterpriority>
+        </member>
+        <member name="M:Idpsa.Control.Component.CompaxC3I20T11.PkwCommand.PkwStructure.PkwC3Object.ObjectValue.Equals(System.Object)">
+            <summary>
+            
+                                Determines whether the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />.
+                            
+            </summary>
+            
+            <returns>
+            true if the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />; otherwise, false.
+                            
+            </returns>
+            
+            <param name="obj">
+                                The <see cref="T:System.Object" /> to compare with the current <see cref="T:System.Object" />. 
+                            </param>
+            <exception cref="T:System.NullReferenceException">
+                                The <paramref name="obj" /> parameter is null.
+                            </exception><filterpriority>2</filterpriority>
+        </member>
+        <member name="F:Idpsa.Control.FormIdpsaSplash.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.FormIdpsaSplash.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Idpsa.Control.FormIdpsaSplash.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.ServerSocket.#ctor(System.Boolean)">
+            <summary>
+            Constructor parametrizado de la clase. Inicializa los atributos y lanza
+            el hilo de conexion.
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.ServerSocket.doConexion">
+            <summary>
+            Acepta conexiones de entrada
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.ServerSocket.Listener">
+            <summary>
+            Hilo de escucha. Recibe datos via socket
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.ServerSocket.SendData(System.String)">
+            <summary>
+            Envia datos via sockets
+            </summary>
+            <param name="data">Cadena de datos que se envia</param>
+        </member>
+        <member name="M:Idpsa.Control.Component.ServerSocket.CloseSockets">
+            <summary>
+            Cierra los sockects abiertos y elimina los hilos de escucha
+            </summary>
+        </member>
+        <member name="M:Idpsa.Control.Component.ServerSocket.OnDataReceived(System.Object)">
+            <summary>
+            Evento generado por la clase al recibir datos por el socket.
+            </summary>
+            <param name="data">Los datos leidos.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,991 @@
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAdministrador.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAcceso.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.FormCadenas.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.frmHistoricoAlarmas.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.FormSplash.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlLinealActuator.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.Control2S2A.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.Control2S2AWithSensorCondition.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlActuadorConInv.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlAltivar31.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlSensores.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTelemetroIfmO1D100.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlActuadorGiro3Posiciones.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlStringDysplay.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11New.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.My_Project.Resources.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.Properties.Resources.resources
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\bin\IDPSA.Control.dll.config
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\bin\IDPSA.Control.dll
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\bin\IDPSA.Control.pdb
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\bin\URMAPI.DLL
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\IDPSA.Control.dll
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\IDPSA.Control.pdb
+C:\Users\alberto\Desktop\Copia de Idpsa.Control\obj\Debug\Idpsa.Control._08_View.Control.controlParker.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\bin\IDPSA.Control.dll.config
+C:\Users\alberto\Desktop\Idpsa.Control - copia\bin\IDPSA.Control.dll
+C:\Users\alberto\Desktop\Idpsa.Control - copia\bin\IDPSA.Control.pdb
+C:\Users\alberto\Desktop\Idpsa.Control - copia\bin\URMAPI.DLL
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.FormAdministrador.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.FormAcceso.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.FormCadenas.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.frmHistoricoAlarmas.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.FormSplash.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlLinealActuator.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.Control2S2A.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.Control2S2AWithSensorCondition.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlActuadorConInv.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlAltivar31.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control._08_View.Control.controlParker.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlSensores.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlTelemetroIfmO1D100.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlActuadorGiro3Posiciones.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlStringDysplay.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlC3I20T11New.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.My_Project.Resources.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.Properties.Resources.resources
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\IDPSA.Control.dll
+C:\Users\alberto\Desktop\Idpsa.Control - copia\obj\Debug\IDPSA.Control.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\bin\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\bin\URMAPI.DLL
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.FormVariador.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\IDPSA.Controller.pdb
+C:\Users\alberto\Desktop\CONTROL\bin\IDPSA.Controller.Contracts.dll
+C:\Users\alberto\Desktop\CONTROL\bin\IDPSA.Controller.Contracts.pdb
+C:\Users\alberto\Desktop\CONTROL\bin\IDPSA.Controller.dll.config
+C:\Users\alberto\Desktop\CONTROL\bin\IDPSA.Controller.dll
+C:\Users\alberto\Desktop\CONTROL\bin\IDPSA.Controller.pdb
+C:\Users\alberto\Desktop\CONTROL\bin\URMAPI.DLL
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.FormAcceso.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\IIdpsa.Control.View.FormAdministrador.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.FormCadenas.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.FrmHistoricoAlarmas.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.FormVariador.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\IDPSA.Controller.dll
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\IDPSA.Controller.pdb
+C:\Users\alberto\Desktop\CONTROL\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\bin\IDPSA.Controller.Contracts.dll
+C:\Users\alberto\Desktop\Dll\CONTROL\bin\IDPSA.Controller.Contracts.pdb
+C:\Users\alberto\Desktop\Dll\CONTROL\bin\IDPSA.Controller.dll.config
+C:\Users\alberto\Desktop\Dll\CONTROL\bin\IDPSA.Controller.dll
+C:\Users\alberto\Desktop\Dll\CONTROL\bin\IDPSA.Controller.pdb
+C:\Users\alberto\Desktop\Dll\CONTROL\bin\URMAPI.DLL
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.FormVariador.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\IDPSA.Controller.dll
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\IDPSA.Controller.pdb
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\IIdpsa.Control.View.FormUsersAdministrator.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Users\alberto\Desktop\Dll\CONTROL\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\IIdpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\Dll\CONTROL\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\bin\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\bin\URMAPI.DLL
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\bin\IDPSA.Controller.Contracts.dll
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\bin\IDPSA.Controller.Contracts.pdb
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\bin\IDPSA.Controller.dll.config
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\bin\IDPSA.Controller.dll
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\bin\IDPSA.Controller.pdb
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\bin\URMAPI.DLL
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\IDPSA.Controller.dll
+C:\Users\alberto\Desktop\RCM_paletizado\CONTROL\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\bin\IDPSA.Controller.dll
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\bin\URMAPI.DLL
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\CONTROL\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\bin\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\bin\URMAPI.DLL
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\bin\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\bin\URMAPI.DLL
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM_fusion\RCM_fusion\RCM_paletizado\CONTROL\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\bin\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\bin\URMAPI.DLL
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\CONTROL\obj\Debug\IDPSA.Controller.pdb
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\bin\URMAPI.DLL
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Proyectos\URSA\URSA.CONTROL\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlBitEvaluable.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\2733 Pasaportes\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\Administrador\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.Contracts.dll
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.Contracts.pdb
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Users\alberto\Desktop\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM2\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM-trabajo\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\alberto.ferreiro\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Documents and Settings\PALETIZADO\Escritorio\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Copias Seguridad\uLTIMApRUEBAfORMATO\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\2733\RCM_paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\2733\is2903 RCM Pasaportes Ampliacion\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Proyectos\MONITOUCH\Paletizado Robot Enlace\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Proyectos\MONITOUCH\RE-PL\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\PROYECTOS\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\PROYECTOS\ROBOT ENLACE\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEthernet.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\PROYECTOS\ROBOT ENLACE\RCM_PaletizadoNew\RCM_Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEthernet.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Copias Seguridad\RCM_Paletizado.OLD\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEthernet.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Copias Seguridad\RCM_Paletizado.TRY\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormDIOSignals.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEthernet.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Proyectos\PALETIZADO\is2903 Paletizado\RCM_paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.frmDIOSignals.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEthernet.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Copias Seguridad\RCM_Paletizado_2012-09-07_1_UltimosCambiosEnIDPSA\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.frmDIOSignals.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEthernet.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.frmDIOSignals.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEthernet.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\maria.cancelas\Mis documentos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.frmDIOSignals.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEthernet.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\maria.cancelas\Mis documentos\Proyectos\RCM\Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.frmDIOSignals.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEthernet.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Documents and Settings\maria.cancelas\Escritorio\RCM2015\BeforeMod\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.frmDIOSignals.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEthernet.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Copias Seguridad\RCM_paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll.config
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.dll
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\bin\IDPSA.Controller.pdb
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\bin\URMAPI.DLL
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlGeneralManual.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEvaluable.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlC3I20T11.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDataDysplayer.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlDynamic.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlJog.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlReader.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlTitle.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAccess.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormUsersAdministrator.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormChains.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.frmDIOSignals.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormAlarmsHistorical.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormParkerProfibus.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.FormIdpsaSplash.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.FormVariador.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.View.ControlEthernet.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Controller.Properties.Resources.resources
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\Idpsa.Control.csproj.GenerateResource.Cache
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.dll
+C:\Users\usuario\Documents\Proyectos\rcm\RCM_Paletizado\RCM_Paletizado\Idpsa.Control\obj\Debug\IDPSA.Controller.pdb

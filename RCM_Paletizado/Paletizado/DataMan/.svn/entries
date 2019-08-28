@@ -1,0 +1,76 @@
+8
+
+dir
+660
+file://servidorsvn/newsvnsolex/SLXDatamanController/trunk/src
+file://servidorsvn/newsvnsolex
+
+
+
+2009-01-27T08:05:01.846851Z
+660
+daniel
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+925c9bd8-1e6f-694d-b411-d1543fdd76eb
+
+SLXDatamanController.csproj
+file
+
+
+
+
+2009-01-27T08:08:40.300117Z
+9dcab11fb9667b7bcbf79ad60c559a8b
+2009-01-27T08:04:54.953756Z
+659
+daniel
+
+Utils
+dir
+
+bin
+dir
+
+View
+dir
+
+Program.cs
+file
+
+
+
+
+2009-01-27T08:08:40.300117Z
+ac314cc0d470fbbda0ff263af2407b87
+2009-01-27T08:04:50.577188Z
+658
+daniel
+
+Properties
+dir
+
+SLXDatamanController.csproj.user
+file
+
+
+
+
+2009-01-27T08:08:40.300117Z
+796f832c27bb285156c70ac982a4aa3e
+2009-01-27T08:05:01.846851Z
+660
+daniel
+

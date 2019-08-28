@@ -1,0 +1,240 @@
+<Title (Simbolico paletizado pasaportes)>
+
+<Device(A020, Tarjetero armario, Id=12)> 
+    
+	<Inputs(50)>
+		
+		*A020A		
+                          0.0;A020_S902;EMERGENCIA ARMARIO ACTUADA
+                          0.1;K921D;EMERGENCIA OK
+                          0.2;K922B;MANDO CONECTADO
+                          0.3;F224;24VCC COMPAX 3
+                          0.4;F712;TERMICO MOTOR EJE X
+                          0.5;F713;TERMICO MOTOR EJE Y
+                          0.6;F714;TERMICO MOTOR EJE Z
+
+      	*A020B
+
+                        *No existe
+
+	*A020C   
+										     
+                        1.0;A900;EMERGENCIA 1
+                        1.1;A901;EMERGENCIA 2
+                        1.2;A902;EMERGENCIA 3
+                        1.3;A601;EMERGENCIA PANEL CONTROL
+                        1.4;B981;PUERTA PROTECCION		    
+
+		*A020D
+
+                        2.0;A020;PRESENCIA AIRE
+
+      	*A020E
+
+                        3.0;B403A;CILINDRO 1 GARRA TRABAJO
+                        3.1;B403B;CILINDRO 1 GARRA REPOSO
+                        3.2;B310A;CILINDRO 2 GARRA TRABAJO
+                        3.3;B310B;CILINDRO 2 GARRA REPOSO
+                        3.4;B311;PLANO ASPIRANTE ABAJO
+                        3.5;B504A;GIRO 0 
+                        3.6;B504B;GIRO -90 
+                        3.7;B504C;GIRO +90    
+
+                *Entradas banda etiquetadora
+
+                 5.5;B230A;EXTENSOR ETIQUETADORA TRABAJO
+                 5.4;B230B;EXTENSOR ETIQUETADORA REPOSO
+                  
+                 5.2;B330A;RETIRADOR ETIQUETADORA TRABAJO
+                 5.3;B330B;RETIRADOR ETIQUETADORA REPOSO
+
+                 *Falta;B510A;GIRO ETIQUETADORA 90 GRADOS
+                 *Falta;B510B;GIRO ETIQUETADORA 0 GRADOS
+
+                  5.6;B850;PRESENCIA ENTRADA BANDA ETIQUETADO
+                  5.7;B851;PRESENCIA ETIQUETADORA
+                  
+                  *Falta;B852;PRESENCIA SALIDA BANDA ETIQUETADO
+
+                  *Falta;B300A;VACIO VENTOSA ETIQUETADORA
+
+                  *Falta;Q750;TERMICO MOTOR BANDA SALIDA
+                        
+
+       	*A020F
+
+                         *Reserva             
+    
+	<Outputs(49)>
+
+	 	*A010H
+
+                        0.0;K960;EMERGENCIA OK     
+                        0.1;K961;CONEXION MANDO
+                        0.2;K928;BUS OK
+
+                        0.4;H990:1;ELEMENTO BALIZA AZUL
+                        0.5;H990:2;ELEMENTO BALIZA VERDE
+                        0.6;H990:3;ELEMENTO BALIZA NARANJA
+                        0.7;H990:4;ELEMENTO BALIZA ROJO                 
+
+	 	*A020I
+
+                        1.0;Output50.0;MOTOR TRAMO 2 TRANSPORTE
+                        1.1;K734A; BANDA RECHAZO AVANCE
+                        1.2;K734B;BANDA RECHAZO RETROCESO
+                        1.3;K735A;MESA RODILLOS 1 AVANCE
+                        1.4;K735B;MESA RODILLOS 1 RETROCESO
+                        1.5;K736A;MESA RODILLOS 2 AVANCE
+                        1.6;K736B;MESA RODILLOS 2 RETROCESO
+                        1.7;K981;PUENTEAR PUERTA                          
+
+                        *2.0 Nuevas salidas ampliación tarjetero armario
+	 	*A020J
+                         2.6;K732;BANDA DE ENTRADA PRODEC
+                          
+                         3.0;Y085;VALVULA GENERAL AIRE
+		
+       	*A020K
+				
+                        4.0;Y311A;PLANO ASPIRANTE ABAJO
+                        4.1;Y311B;PLANO ASPIRANTE ARRIBA
+                        4.2;Y310A;CILINDRO GARRA TRABAJO
+                        4.3;Y310B;CILINDRO GARRA REPOSO
+                        4.4;Y504A;GIRO +0
+                        4.5;Y504B;GIRO -0
+                        4.6;Y505A;GIRO -90
+                        4.7;Y505B;GIRO +90
+
+       	*A020L
+
+                        5.0;Y401;PLANO ASPIRANTE
+
+       	*A020M
+
+                            *Salidas banda etiquetado
+                   6.2;Y230;EXTENSOR ETIQUETADORA TRABAJO
+                   6.0;Y330;RETIRADOR ETIQUETADORA TRABAJO
+                   6.1;Y510;GIRO ETIQUETADORA 90 GRADOS
+                   6.3;V300;ASPIRACION ETIQUETADORA
+                   6.5;K750;MESA BANDA ETIQUETADO
+
+<EndDevice>
+
+
+
+<Device(A021, Tarjetero panel de control, Id=10)> 
+    
+	<Inputs(0)>
+
+		*A021A				
+                        
+				 0.0;S901; CONEXION MANDO
+ 			                 0.1;A021_S902;DESCONEXION MANDO
+ 				 0.2;Input0.2; TRABAJO CILINDRO TRAMO 2
+ 				 0.3;Input0.3; SENSOR ARRIBA ELEVADOR 1                                                      
+		*A021B
+
+			           	*Reserva (estaban las de aplicacion de etiquetas)
+             
+		*A021C
+
+				2.1;B816;PRESENCIA ZONA COJIDA PRIMER PALETIZADO
+				2.2;B818;PRESENCIA MESA PRIMER PALETIZADO
+				2.3;B313A;CENTRADOR PALETS 1 TRABAJO
+				2.4;B313B;CENTRADOR PALETS 1 REPOSO
+				2.5;B314A;CENTRADOR PALETS 2 TRABAJO
+				2.6;B314B;CENTRADOR PALETS 2 REPOSO
+
+		*A021D
+
+				3.0;B815;PRESENCIA ENTRADA MESA RECHAZO
+				3.1;B817;PRESENCIA ZONA REPROCESO
+				3.2;B821;PRESENCIA PALET ZONA DESAPILADO
+				3.3;B822;PRESENCIA CARTON
+
+		*A021E
+
+				4.0;B819;PRESENCIA ZONA COJIDA SEGUNDO PALETIZADO
+				4.1;B820;PRESENCIA ZONA SEGUNDO PALETIZADO
+				4.2;B315A;TOPE ESCAMOTEABLE 1 TRABAJO
+				4.3;B315B;TOPE ESCAMOTEABLE 1 REPOSO
+				4.4;B316;TOPE ESCAMOTEABLE 2 TRABAJO
+
+		*A021F
+                                                                *5.0 Nuevas entradas tarjetero armario ampliacion
+
+				*Reserva
+                             
+	<Outputs(0)>
+
+		*A021H
+
+				0.0;H901;CONEXION MANDO
+				0.1;H902;DESCONEXION MANDO
+				0.2;H930;PERMISO PUERTA
+				0.3;H931;REARME PUERTA
+
+		*A021I
+
+				*1.0;Y308;No se sabe que co�o es
+				*1.1;Y503A;No se sabe que co�o es
+				*1.2;Y503B;No se sabe que co�o es
+				*1.3;Y309A;No se sabe que co�o es
+				*1.4;Y309B;No se sabe que co�o es
+				*1.5;Y402;No se sabe que co�o es
+				
+		*A021J
+				
+				2.0;Y313;CENTRADOR PALETS 1 Y 2 TRABAJO				
+				2.2;Y315;TOPE ESCAMOTEABLE 1 TRABAJO
+				2.3;Y316;TOPE ESCAMOTEABLE 2 TRABAJO
+
+		*A021K
+
+				*Reserva	
+
+		*A021L
+
+				*Reserva
+
+		*A021M
+
+				*Reserva
+
+<EndDevice>
+
+
+<Device(A712, Compax Eje X, Id=30>
+      <Inputs(6)>
+      <Outputs(5)>
+<EndDevice>
+
+<Device(A713, Compax Eje Y, Id=31>
+      <Inputs(28)>
+      <Outputs(27)>
+<EndDevice>
+
+<Device(A714, Compax Eje Z, Id=32>
+      <Inputs(56)>
+      <Outputs(56)>
+<EndDevice>
+
+<Device(Prodec, Encajadora, Id=40>
+       <Inputs(78)>
+
+           0.0;ProdecEntrada;Prodec: Entrada de paquetes libre
+           1.0;ProdecEmergencia;Prodec: Stop Emergencia
+           1.1;ProdecMarcha;Prodec: Marcha 
+           1.2;ProdecParada;Prodec: Parada
+           1.3;ProdecFallo;Prodec:Fallo
+           1.5;ProdecRechazar;Prodec: Caja para rechazar          
+        <Outputs(78)>
+
+           0.0;ProdecMensaje;Prodec: Mensaje maquina anterior parada
+           0.3;ProdecSalidaCajas;Prodec: Permiso de salida cajas
+<EndDevice>
+
+
+
+

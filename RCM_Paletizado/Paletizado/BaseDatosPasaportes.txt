@@ -1,0 +1,80 @@
+Base de datos TrazabilidadPasaportes:
+
+
+********************************************************************************
+
+
+Estructura:
+
+Tabla Pasaportes:
+
+Nº Columna (Primary Key)
+Id (NSerie(string),NPasporte(int)) --(Unique)
+Id grupo (clave externa -> GruposPasaportes.IdGrupoPasaportes)
+Rfid    (string)
+
+
+
+Tabla GruposPasaportes:
+
+Nº Columna (Primary Key)
+Id (NSerie(string),NGrupo(int)) -- (Unique)
+Fecha (no hora)
+Fajado
+Id caja (clave externa)
+Fecha Inicio (dateTime) (Se introduce tras pulsar el botón aceptar de la ventána de Catálogo)
+Fecha Final  (dateTime) (Se introduce después del pesado si no tiene incidencias)
+
+Tabla Catalogo:
+
+NºCatalogo (Primary Key)
+Id Catalogo (Unique)
+Fecha Inicicio
+
+NSerie
+NPasaportes
+TipoPasaporte
+
+Tabla CajasGruposPasaportes:
+
+
+*********************************************************************************
+
+
+Funcionamiento:
+
+ 1-Catálogo
+
+  La tablas se relacionan con el catálogo de la aplicación:
+
+
+  En el catálogo de la aplicación se introduce:
+   1- La serie
+   2- El nº de pasaportes que se van a procesar que tiene que ser múltiplo de 100
+     Con estos datos cuando le demos al botón de aceptar del catálogo:
+     En caso de que ya estén presentes en la base de datos:
+      Se pregunta si se desea sobre-escribir los valores
+   3- Tipo de pasaporte (Ej. Español (define si tiene o no Rfid el pasaporte))
+   Y se le asocia un Id de catálogo  
+   
+ Se insertan (o update) los Nº de columna(automático Sql) y el Id de cada tabla  
+ Se comprueba que se ha hecho la operación (debe ser una transacción)
+ En caso contrario se muestra un mensaje de fallo en la pantalla de catálogo.
+
+ 2-Automático
+
+  Cuando se ha realizado el pesado si el grupo no tiene incidencias se hace el update de las tablas:
+   1-Pasaportes
+   2-GruposPasaportes  
+   
+  
+   
+ 
+
+
+  	   
+  
+
+
+
+

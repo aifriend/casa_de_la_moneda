@@ -1,0 +1,579 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Idpsa</RootNamespace>
+    <AssemblyName>Paletizado</AssemblyName>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B21312D-4FF6-41E8-A536-7D72241470C0}</ProjectGuid>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <StartupObject>
+    </StartupObject>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Pasaportes.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Pasaportes.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="msmdvbanet, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="URMAPI, Version=0.9.3.0, Culture=neutral, PublicKeyToken=5362429f975c8428, processorArchitecture=x86" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01-Elementos robot\1-Arquitectura\1- Sistema\CommandControllerPaletizadora.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\1- Sistema\IdpsaSystemPaletizado.Initialization.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\GeneralSeguritiesPaletizado.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper States\ChekItemOkDespaletizing_State.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper States\IGantryState.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper States\CatchPalet_State.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper States\CatchSeparator_State.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper States\CathItem_State.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper States\ChekItemOk_State.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper States\GoToOrigin_State.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper States\LeaveItem_State.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper States\LeavePalet_State.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper States\LeaveSeparator_State.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper States\Transfer_State.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper States\Wait_State.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper\Gripper.AutoChain.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper\Gripper.Chains.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper\Gripper.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper\GripperContext.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\ProcessControlDefinitions.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 2\ControlAireTransportes.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 2\TwoPositionsMovementMiddleStop.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\5-Entrada Manual\RuhlamatManualFeed.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\6-Rearme Autorizado\AuthorizedReset.cs" />
+    <Compile Include="01-Elementos robot\4-Base datos\EntradasSalidasDB.cs" />
+    <Compile Include="01-Elementos robot\4-Base datos\NewDB.cs" />
+    <Compile Include="02-Componentes\ManualScreen\ScreenPlay.cs" />
+    <Compile Include="02-Componentes\Comunicaciones\EnlaceRulamat.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Reprocesado Manual\IManualReprocessor.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Reprocesado Manual\IManualReprocessSolicitor.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\3-Zona etiquetado\BandaEtiquetado.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 1\MesaRodillos2.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 1\MesaRodillos1.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 1\SistemaMesas.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 1\ZonaPaletizadoFinal.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 2\Elevador1.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 2\Elevador2.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\3-Zona etiquetado\Impresora Zebra\Zebra_CajasPrinter_10_100_PrintServer.cs" />
+    <Compile Include="01-Elementos robot\5-ItemSolicitor_Suplier\IItemSolicitor.cs" />
+    <Compile Include="01-Elementos robot\5-ItemSolicitor_Suplier\IItemSuplier.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 2\Line2.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 2\TramoTransporteGruposPasaportes.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 2\TransporteLinea2.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 2\TwoPositionsMovement.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Lines.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Mediator.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 1\Line1.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Reprocesado Manual\ReprocesadorManual.cs" />
+    <Compile Include="02-Componentes\Comunicaciones\EnlaceJaponesa.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\4-Prodec\BandaSalidaEnfajadora.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\4-Prodec\Prodec.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\3-Zona etiquetado\Etiquetadora.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\3-Zona etiquetado\Impresora Zebra\Zebra_CajasPrinter.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\BotoneraBarrera.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\Geometria.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\ProveCatalog.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\LinesSemaphore.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\SystemProduction.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\1-Estructura\IContainer.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\1-Estructura\Paletizer\EspecialPaletizer.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\1-Estructura\Paletizer\PaletizerDecorator.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\1-Estructura\Paletizer\IPaletizer.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\1-Estructura\Paletizer\NormalPaletizer .cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\1-Estructura\PaletStore.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\1-Estructura\SeparatorStore.cs" />
+    <Compile Include="01-Elementos robot\2-Producto\PaletProduction.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\1-Estructura\MosaicGenerators.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\1-Estructura\Paletizer\Despaletizer.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\1-Estructura\Paletizer\Paletizer.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\1-Estructura\Mosaic.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\1-Estructura\MosaicGroup.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\2-Elementos\Definitions.cs" />
+    <Compile Include="01-Elementos robot\3-Paletizado\3-Utilidades\MosaicDraw.cs" />
+    <Compile Include="01-Elementos robot\4-Base datos\DBMapping.cs" />
+    <Compile Include="01-Elementos robot\4-Base datos\DataBase.cs" />
+    <Compile Include="01-Elementos robot\5-ItemSolicitor_Suplier\SourceBoxSupplier.cs" />
+    <Compile Include="01-Elementos robot\5-ItemSolicitor_Suplier\SourceGroupSupplier.cs" />
+    <Compile Include="01-Elementos robot\2-Producto\CajaPasaportes.cs" />
+    <Compile Include="02-Componentes\Ocr\OcrPassPorts.cs" />
+    <Compile Include="02-Componentes\Ocr\SLXOcr.cs" />
+    <Compile Include="03-Modo manual\ManualControlPaletizadoFactory.cs" />
+    <Compile Include="04-Catalogo\CatalogManager.cs" />
+    <Compile Include="04-Catalogo\DatosCatalogoPaletizado.cs" />
+    <Compile Include="05-Forms\FormAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05-Forms\FormCreatePaletizerCatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05-Forms\FormCreatePaletizerCatalog.Designer.cs">
+      <DependentUpon>FormCreatePaletizerCatalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05-Forms\FormErrorDespaletizing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05-Forms\FormErrorDespaletizing.Designer.cs">
+      <DependentUpon>FormErrorDespaletizing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05-Forms\RearmeBarrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05-Forms\RearmeBarrera.Designer.cs">
+      <DependentUpon>RearmeBarrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\FormBandaProdecView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\FormBandaProdecView.Designer.cs">
+      <DependentUpon>FormBandaProdecView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\TransportsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\TransportsView.Designer.cs">
+      <DependentUpon>TransportsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\FormCreatePasaporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\FormCreatePasaporte.Designer.cs">
+      <DependentUpon>FormCreatePasaporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05-Forms\FormMainPaletizado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05-Forms\FormMainPaletizado.Designer.cs">
+      <DependentUpon>FormMainPaletizado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01-Elementos robot\2-Producto\GrupoPasaportes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="01-Elementos robot\2-Producto\Pasaporte.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="01-Elementos robot\1-Arquitectura\1- Sistema\IdpsaSystemPaletizado.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00-Principal\Principal.cs" />
+    <Compile Include="04-Catalogo\DatosCatalogo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="05-Forms\FormPaletizado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05-Forms\FormPaletizado.Designer.cs">
+      <DependentUpon>FormPaletizado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05-Forms\FormPaletizadoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05-Forms\FormPaletizadoView.Designer.cs">
+      <DependentUpon>FormPaletizadoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05-Forms\FormPrintBoxManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05-Forms\FormPrintBoxManual.designer.cs">
+      <DependentUpon>FormPrintBoxManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Reprocesado Manual\ManualBoxReprocessor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Reprocesado Manual\ManualBoxReprocessor.Designer.cs">
+      <DependentUpon>ManualBoxReprocessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\MosaicView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\MosaicView.Designer.cs">
+      <DependentUpon>MosaicView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\PaletizerLine2View.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\PaletizerLine2View.Designer.cs">
+      <DependentUpon>PaletizerLine2View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\PaletizerLine1View.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\PaletizerLine1View.Designer.cs">
+      <DependentUpon>PaletizerLine1View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\UBascula.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\UBascula.Designer.cs">
+      <DependentUpon>UBascula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\UCLoadCatalogo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\UCLoadCatalogo.designer.cs">
+      <DependentUpon>UCLoadCatalogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\UCLoadCatalogs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06-Controles\Pantallas\UCLoadCatalogs.Designer.cs">
+      <DependentUpon>UCLoadCatalogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="07-Geometría\DistanceIntervals.cs" />
+    <Compile Include="07-Geometría\OrientableRectangle.cs" />
+    <Compile Include="07-Geometría\PoinSpin2DComparer.cs" />
+    <Compile Include="07-Geometría\PointSpin2D.cs" />
+    <Compile Include="07-Geometría\PointSpin3D.cs" />
+    <Compile Include="06-Controles\Heredados\TabControlColor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="06-Controles\Heredados\TabControlColor.Designer.cs">
+      <DependentUpon>TabControlColor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06-Controles\Heredados\ListWiewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="06-Controles\Heredados\TabControlEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="08-M. Extenxion\PasaporteExtensions.cs" />
+    <Compile Include="08-M. Extenxion\PaletizadoExtenxions.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\1- Sistema\SystemControllerPaletizado.cs" />
+    <Compile Include="09-Configuracion\ConfigPaletizadoComunication.cs" />
+    <Compile Include="09-Configuracion\ConfigPaletizadoFiles.cs" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Res\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TOIdpsa.Control\ListQueue.cs" />
+    <Compile Include="TrazabilidadPasaportesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrazabilidadPasaportesDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="05-Forms\FormAccess.resx">
+      <DependentUpon>FormAccess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05-Forms\FormCreatePaletizerCatalog.resx">
+      <DependentUpon>FormCreatePaletizerCatalog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05-Forms\FormErrorDespaletizing.resx">
+      <DependentUpon>FormErrorDespaletizing.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05-Forms\RearmeBarrera.resx">
+      <DependentUpon>RearmeBarrera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06-Controles\Pantallas\FormBandaProdecView.resx">
+      <DependentUpon>FormBandaProdecView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06-Controles\Pantallas\TransportsView.resx">
+      <DependentUpon>TransportsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06-Controles\Pantallas\FormCreatePasaporte.resx">
+      <DependentUpon>FormCreatePasaporte.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05-Forms\FormMainPaletizado.resx">
+      <DependentUpon>FormMainPaletizado.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05-Forms\FormPaletizado.resx">
+      <DependentUpon>FormPaletizado.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05-Forms\FormPaletizadoView.resx">
+      <DependentUpon>FormPaletizadoView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05-Forms\FormPrintBoxManual.resx">
+      <DependentUpon>FormPrintBoxManual.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Reprocesado Manual\ManualBoxReprocessor.resx">
+      <DependentUpon>ManualBoxReprocessor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06-Controles\Pantallas\MosaicView.resx">
+      <DependentUpon>MosaicView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06-Controles\Pantallas\PaletizerLine2View.resx">
+      <DependentUpon>PaletizerLine2View.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06-Controles\Pantallas\PaletizerLine1View.resx">
+      <DependentUpon>PaletizerLine1View.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06-Controles\Pantallas\UBascula.resx">
+      <DependentUpon>UBascula.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06-Controles\Pantallas\UCLoadCatalogo.resx">
+      <DependentUpon>UCLoadCatalogo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06-Controles\Pantallas\UCLoadCatalogs.resx">
+      <DependentUpon>UCLoadCatalogs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informe.rdlc" />
+    <EmbeddedResource Include="RearmeES2.rdlc" />
+    <EmbeddedResource Include="RearmeES3.rdlc" />
+    <EmbeddedResource Include="RearmeParada.rdlc" />
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Res\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImagenAgrupado.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImagenZonaFajado.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\ImagenZonaFajado1.bmp" />
+    <None Include="TrazabilidadPasaportesDataSet.xsc">
+      <DependentUpon>TrazabilidadPasaportesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TrazabilidadPasaportesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrazabilidadPasaportesDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TrazabilidadPasaportesDataSet.xss">
+      <DependentUpon>TrazabilidadPasaportesDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileclose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filesave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kontact_contacts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kgpg_identity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo idpsa.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo idpsa1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Idpsa_Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\datosTurno.datasource" />
+    <None Include="Properties\DataSources\datosTurno1.datasource" />
+    <None Include="Properties\DataSources\datosTurno2.datasource" />
+    <None Include="Resources\Idpsa_Logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DlMonitorWrapper\DlMonitorWrapper.vcproj">
+      <Project>{F16EEDA7-BCC0-4C01-9033-343EA8B919CD}</Project>
+      <Name>DlMonitorWrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GeneralMatrix\GeneralMatrix.csproj">
+      <Project>{6ABA6EAD-58B0-4FCE-A97F-BC884281A170}</Project>
+      <Name>GeneralMatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\RCMCommonTypes\RCMCommonTypes.csproj">
+      <Project>{568E2E73-08FD-4B1E-BA11-279D021F5ECD}</Project>
+      <Name>RCMCommonTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\RCMGestorCatalogo\RECatalogManager.csproj">
+      <Project>{492962B7-CA00-4F95-9879-7AC8A9EEB91F}</Project>
+      <Name>RECatalogManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Idpsa.Control\Idpsa.Control.csproj">
+      <Project>{CCE94F20-6CE9-4C94-975B-B74BB4288450}</Project>
+      <Name>Idpsa.Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="bin\Config\ConfiguracionPaletizado\ConfiguracionPaletizado\ConfiguracionPaletizado.csproj">
+      <Project>{0F86AAE2-A899-4332-8024-58C0E93CB6BB}</Project>
+      <Name>ConfiguracionPaletizado</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+</Project>
