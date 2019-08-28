@@ -1187,10 +1187,6 @@ namespace Idpsa.Paletizado
                         lblModoActual.BackColor = Color.Orange;
                     }
                     break;
-
-                //case SystemControl.IdNotification.MaxCycleTime:
-                //    lblCycleTime.Text = e.Value.ToString();
-                //    break;
             }
         }
         #endregion

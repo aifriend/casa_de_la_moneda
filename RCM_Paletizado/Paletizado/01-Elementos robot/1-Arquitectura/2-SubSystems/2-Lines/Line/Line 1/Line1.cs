@@ -19,6 +19,8 @@ namespace Idpsa.Paletizado
 
         private readonly Bus _bus;
         private readonly IdpsaSystemPaletizado _sys;
+        public bool ModoAcumulacion;
+        public SourceGroupSupplier Supplier { get; private set; }
 
         public Line1(IdpsaSystemPaletizado sys,
                      SourceGroupSupplier supplier,
@@ -28,7 +30,8 @@ namespace Idpsa.Paletizado
         {
             _bus = sys.Bus;
             _sys = sys;
-            Func<string, CajaPasaportes> boxGetter = supplier.GetBox;
+            Supplier = supplier;
+            Func<string, CajaPasaportes> boxGetter = Supplier.GetBox;
 
             NormalPaletizer initialPaletizer = CreateInitialPaletizer(boxGetter);
             if (!PaletizeDirectly)
@@ -53,7 +56,10 @@ namespace Idpsa.Paletizado
                 new SensorN(_bus.In("B821"), "presencia paletizado japonesa"), finalPaletizer, sys);
 
             //MDG. pasmos el sourcegroup supplier para poder comparar lo recibido con lo cargado en el catalogo de grupos
-            EnlaceJaponesa = CreateEnlaceJaponesa(solicitor, semaphore, supplier);
+            EnlaceJaponesa = CreateEnlaceJaponesa(solicitor, semaphore, Supplier);
+
+            TransporteLinea = new TransporteLinea1(_sys, Supplier, solicitor, semaphore);
+
         }
 
         [Subsystem]
@@ -61,6 +67,9 @@ namespace Idpsa.Paletizado
 
         [Subsystem(Filter = SubsystemFilter.None)]
         public EnlaceJaponesa EnlaceJaponesa { get; set; }
+
+        [Subsystem(Filter = SubsystemFilter.None)]
+        public TransporteLinea1 TransporteLinea { get; private set; }
 
         public bool BoxNotCatchedDespaletizing { get; set; }//MDG.2013-04-25
 
@@ -111,6 +120,13 @@ namespace Idpsa.Paletizado
             PaletStore.SetNewCatalog(ProveCatalog.NInicialPalets, datosCatalogo.PaletizerDefinition.Palet);
             ZonaPaletizadoFinal.Paletizer.StartPaletizer(datosCatalogo);
             Mesas.SetNewCatalog(datosCatalogo);
+            Mesas.SetNewCatalog(datosCatalogo);
+            if (datosCatalogo.SotoredData != null)
+            {
+                //MDG.2010-12-13. Para evitar que dé error al crearse de nuevo el catalogo
+                Supplier.CurrentIndex = datosCatalogo.SotoredData.GetCurrectGroupIndex();
+                //MDG.2010-12-09.Lo cargo antes que los datos del palet para que no me lo sobre escriba con el sabe interno que hace
+            }
             _sys.Production.SaveCatalogs();
             return true;
         }

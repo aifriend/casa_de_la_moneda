@@ -6,7 +6,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectType>Local</ProjectType>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{5B21312D-4FF6-41E8-A536-7D72241470C0}</ProjectGuid>
     <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
@@ -149,6 +149,7 @@
     <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper\Gripper.cs" />
     <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\Gripper\GripperContext.cs" />
     <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\1-Pinza\ProcessControlDefinitions.cs" />
+    <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 1\TransporteLinea1.cs" />
     <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 2\ControlAireTransportes.cs" />
     <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\2-Lines\Line\Line 2\TwoPositionsMovementMiddleStop.cs" />
     <Compile Include="01-Elementos robot\1-Arquitectura\2-SubSystems\5-Entrada Manual\RuhlamatManualFeed.cs" />

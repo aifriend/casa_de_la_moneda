@@ -369,10 +369,6 @@ namespace Idpsa
                         lblModoActual.BackColor = Color.Orange;
                     }
                     break;
-
-                case SystemControl.IdNotification.MaxCycleTime:
-                    lblCycleTime.Text = e.Value.ToString();
-                    break;
             }
         }
 
@@ -699,11 +695,6 @@ namespace Idpsa
             }
         }
 
-        private void lblCycleTime_Click(object sender, EventArgs e)
-        {
-            _controllerSystem.ResetMaxCycleTime();
-        }
-
         //private void NewCatalogHandler(DatosCatalogo catalogo)
         //{
         //    _controllerSystem.RequestSystemProduction(SystemProductionRequest.IdRequest.Catalog, catalogo);
@@ -976,6 +967,18 @@ namespace Idpsa
 
         private void btVaciar_Click(object sender, EventArgs e)
         {
+            if (_sys.Lines.Line1.TransporteLinea.Tramo1.Vaciar)
+            {
+                _sys.Lines.Line1.TransporteLinea.Tramo1.Vaciar = false;
+                btVaciar.Text = "No Vaciando";
+            }
+            else
+            {
+                _sys.Lines.Line2.TransporteLinea.Tramo1.Vaciar = true;
+                _sys.Lines.Line2.TransporteLinea.Tramo2.Vaciar = true;
+                btVaciar.Text = "Vaciando";
+            }
+
             //MDG.2010-07-13.Comprobacion orden de vaciado aún activa
             if (_sys.Lines.Line2.TransporteLinea.Tramo1.Vaciar ||
                 _sys.Lines.Line2.TransporteLinea.Tramo2.Vaciar)
@@ -1030,47 +1033,86 @@ namespace Idpsa
             _sys.Production.LoadTransportGroups();
         }
 
-        private void btModoAcumulacion_Click(object sender, EventArgs e)
+        private void btModoAcumulacion_L1_Click(object sender, EventArgs e)
         {
-            //MDG.2011-05-30
-            //if (MessageBox.Show("¿Desea borrar todos los grupos existentes en los ascensores y los transportadores aéreos de la línea 2?", "Banda Reproceso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)//MDG.2011-04-26.Confirmacion de seguridad
-            //{
-
             if (_sys.Lines.BandaSalidaEnfajadora.PassportGroup.Count > 0)
                 MessageBox.Show(
                     "No se puede cambiar de modo mientras haya grupos en la banda de entrada a la encajadora Prodec",
                     "Confirmacion Cambio Modo Acumulacion");
-            else if (_sys.Lines.Encajadora.GruposPasaportes.Count%4 > 0)
+            else if (_sys.Lines.Encajadora.GruposPasaportes.Count % 4 > 0)
                 MessageBox.Show(
                     "No se puede cambiar de modo mientras haya grupos de una caja sin completar dentro de la encajadora Prodec",
                     "Confirmacion Cambio Modo Acumulacion");
             else
             {
                 //MDG.2010-12-03
-                _sys.Lines.Line2.ModoAcumulacion = !_sys.Lines.Line2.ModoAcumulacion;
-                if (_sys.Lines.Line2.ModoAcumulacion)
+                _sys.Lines.Line1.ModoAcumulacion = !_sys.Lines.Line1.ModoAcumulacion;
+                if (_sys.Lines.Line1.ModoAcumulacion)
                 {
-                    btModoAcumulacion.Text = "Modo Acumulacion activo";
-                    btModoAcumulacion.BackColor = Color.LightGreen;
+                    btModoAcumulacion_L1.Text = "Modo Acumulacion L1 activo";
+                    btModoAcumulacion_L1.BackColor = Color.LightGreen;
+                    _sys.Lines.Line1.TransporteLinea.Tramo1.Capacity = 100;
+                    _sys.Lines.Line1.TransporteLinea.Tramo1.ModoAcumulacion = true;
+                    _sys.Lines.Semaphore.ModoAcumulacion_L2_T1 = true;
+                    btVaciar.Text = "No vaciando";
+                }
+            }
+        }
+
+        private void btModoAcumulacion_L2_T1_Click(object sender, EventArgs e)
+        {
+            if (_sys.Lines.BandaSalidaEnfajadora.PassportGroup.Count > 0)
+                MessageBox.Show(
+                    "No se puede cambiar de modo mientras haya grupos en la banda de entrada a la encajadora Prodec",
+                    "Confirmacion Cambio Modo Acumulacion");
+            else if (_sys.Lines.Encajadora.GruposPasaportes.Count % 4 > 0)
+                MessageBox.Show(
+                    "No se puede cambiar de modo mientras haya grupos de una caja sin completar dentro de la encajadora Prodec",
+                    "Confirmacion Cambio Modo Acumulacion");
+            else
+            {
+                //MDG.2010-12-03
+                _sys.Lines.Line2.ModoAcumulacion_T1 = !_sys.Lines.Line2.ModoAcumulacion_T1;
+                if (_sys.Lines.Line2.ModoAcumulacion_T1)
+                {
+                    btModoAcumulacion_L2_T1.Text = "Modo Acumulacion L2-T1 activo";
+                    btModoAcumulacion_L2_T1.BackColor = Color.LightGreen;
                     _sys.Lines.Line2.TransporteLinea.Tramo1.Capacity = 100;
                     _sys.Lines.Line2.TransporteLinea.Tramo2.Capacity = 20;
                     _sys.Lines.Line2.TransporteLinea.Tramo1.ModoAcumulacion = true;
                     _sys.Lines.Line2.TransporteLinea.Tramo2.ModoAcumulacion = true;
-                    _sys.Lines.Semaphore.ModoAcumulacion = true; //MDG.2011-05-30.Esta variable regula el semáforo
+                    _sys.Lines.Semaphore.ModoAcumulacion_L2_T1 = true; //MDG.2011-05-30.Esta variable regula el semáforo
                     //Sys.Lines.Line2.TransporteLinea.Elevador2.ModoAcumulacion = true;//MDG.2011-05-30
-                    labelVaciar.Text = "No vaciando"; //MDG.2011-06-30
+                    btVaciar.Text = "No vaciando"; //MDG.2011-06-30
                 }
-                else
+            }
+        }
+
+
+        private void btModoAcumulacion_L2_T2_Click(object sender, EventArgs e)
+        {
+            if (_sys.Lines.BandaSalidaEnfajadora.PassportGroup.Count > 0)
+                MessageBox.Show(
+                    "No se puede cambiar de modo mientras haya grupos en la banda de entrada a la encajadora Prodec",
+                    "Confirmacion Cambio Modo Acumulacion");
+            else if (_sys.Lines.Encajadora.GruposPasaportes.Count % 4 > 0)
+                MessageBox.Show(
+                    "No se puede cambiar de modo mientras haya grupos de una caja sin completar dentro de la encajadora Prodec",
+                    "Confirmacion Cambio Modo Acumulacion");
+            else
+            {
+                _sys.Lines.Line2.ModoAcumulacion_T2 = !_sys.Lines.Line2.ModoAcumulacion_T2;
+                if (_sys.Lines.Line2.ModoAcumulacion_T2)
                 {
-                    btModoAcumulacion.Text = "Modo Acumulacion Inactivo";
-                    btModoAcumulacion.BackColor = Color.LightBlue;
+                    btModoAcumulacion_L2_T2.Text = "Modo Acumulacion L2-T2 Inactivo";
+                    btModoAcumulacion_L2_T2.BackColor = Color.LightBlue;
                     _sys.Lines.Line2.TransporteLinea.Tramo1.Capacity = 80; // 10;
                     _sys.Lines.Line2.TransporteLinea.Tramo2.Capacity = 5;
                     _sys.Lines.Line2.TransporteLinea.Tramo1.ModoAcumulacion = false;
                     _sys.Lines.Line2.TransporteLinea.Tramo2.ModoAcumulacion = false;
-                    _sys.Lines.Semaphore.ModoAcumulacion = false; //MDG.2011-05-30.Esta variable regula el semáforo
+                    _sys.Lines.Semaphore.ModoAcumulacion_L2_T2 = false; //MDG.2011-05-30.Esta variable regula el semáforo
                     //Sys.Lines.Line2.TransporteLinea.Elevador2.ModoAcumulacion = false;//MDG.2011-05-30
-                    labelVaciar.Text = "Vaciando"; //MDG.2011-06-30
+                    btVaciar.Text = "Vaciando"; //MDG.2011-06-30
                 }
             }
         }
@@ -1078,27 +1120,6 @@ namespace Idpsa
         private void menuCargarCajasBandas_Click(object sender, EventArgs e)
         {
             _sys.Production.LoadLinesGroupsAndBoxes();
-        }
-
-        private void menuItem2_Click(object sender, EventArgs e)
-        {
-            //MDG.2011-06-30.Establecemos semaforo auto o no
-            _sys.Lines.Semaphore.AutoSeleccion = !_sys.Lines.Semaphore.AutoSeleccion;
-            if (_sys.Lines.Semaphore.AutoSeleccion)
-                MessageBox.Show(
-                    "Auto-Semaforo Encajadora activo.\nLa entrada de grupos a la Encajadora se selecciona sola, NO es dependiente del Modo Acumulación.");
-            else
-                MessageBox.Show(
-                    "Semáforo normal a Encajadora:\n\n1-En Modo Acumulación entran grupos de la línea japonesa.\n\n2-En modo normal entran grupos de la línea Alemana.");
-        }
-
-        private void checkBoxAutoSemaforo_CheckedChanged(object sender, EventArgs e)
-        {
-            _sys.Lines.Semaphore.AutoSeleccion = checkBoxAutoSemaforo.Checked;
-            MessageBox.Show(
-                _sys.Lines.Semaphore.AutoSeleccion
-                    ? "Auto-Semaforo Encajadora activo.\nLa entrada de grupos a la Encajadora se selecciona sola, NO es dependiente del Modo Acumulación."
-                    : "Semáforo normal a Encajadora:\n\n1-En Modo Acumulación entran grupos de la línea japonesa.\n\n2-En modo normal entran grupos de la línea Alemana.");
         }
 
         private void InitializeRobotEnlaceManualMode()
@@ -1223,7 +1244,7 @@ namespace Idpsa
         }
         private int getActualCatalog()
         {
-            if (_sys.Lines.Line2.ModoAcumulacion)
+            if (_sys.Lines.Line2.ModoAcumulacion_T2)
                 return (CatDBL1);
             else
                 return (CatDBL2);

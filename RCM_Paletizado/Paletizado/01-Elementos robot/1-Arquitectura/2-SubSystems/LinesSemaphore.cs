@@ -8,8 +8,9 @@ namespace Idpsa.Paletizado
     public class LinesSemaphore
     {
         private readonly List<IDLine> _requests;
-        public bool AutoSeleccion;
-        public bool ModoAcumulacion;
+        public bool ModoAcumulacion_L1;
+        public bool ModoAcumulacion_L2_T1;
+        public bool ModoAcumulacion_L2_T2;
 
         public LinesSemaphore()
         {
@@ -44,28 +45,15 @@ namespace Idpsa.Paletizado
 
             bool value = false;
 
-            //old.2010-12-15. Se tenía permiso siempre
-            //if (Semaphore.Value == IDLine.Japonesa)
-            //    value = true;
-            //else if(Semaphore.Value == IDLine.Alemana)
-            //    value = true;
-
-            if (AutoSeleccion) //MDG.2011-06-30
+            //MDG.2011-05-30.Decision en funcion de si estamos en modo acumulacion o no
+            if (Contains(idLine)) //Comprobamos que esté en el semaforo la petición
             {
-                //MDG.2010-12-15. La linea de entrada tiene permiso solo si coincide con el valor consultado en el semáforo
-                if (Semaphore.Value == idLine)
+                if (idLine == IDLine.Japonesa && ModoAcumulacion_L1)
                     value = true;
-            }
-            else
-            {
-                //MDG.2011-05-30.Decision en funcion de si estamos en modo acumulacion o no
-                if (Contains(idLine)) //Comprobamos que esté en el semaforo la petición
-                {
-                    if (idLine == IDLine.Japonesa && ModoAcumulacion)
-                        value = true;
-                    if (idLine == IDLine.Alemana && !ModoAcumulacion)
-                        value = true;
-                }
+                else if (idLine == IDLine.Alemana && ModoAcumulacion_L2_T1)
+                    value = true;
+                else if (idLine == IDLine.Alemana && ModoAcumulacion_L2_T2)
+                    value = true;
             }
 
             return value;

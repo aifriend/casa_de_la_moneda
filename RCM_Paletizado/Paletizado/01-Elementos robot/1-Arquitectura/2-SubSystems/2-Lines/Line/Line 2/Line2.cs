@@ -22,10 +22,9 @@ namespace Idpsa.Paletizado
 
         [Manual(SuperGroup = "General", Group = "Sensores")] private readonly IEvaluable _presencia;
 
-        private readonly SourceGroupSupplier _supplier;
-
         private readonly IdpsaSystemPaletizado _sys;
-        public bool ModoAcumulacion;
+        public bool ModoAcumulacion_T1;
+        public bool ModoAcumulacion_T2;
 
         //MDG.2010-07-12.Estado inicial, copiado de linea 1
         //private Paletizer.States _paletizerFirstState = Idpsa.Paletizado.Paletizer.States.PutItem;
@@ -41,7 +40,7 @@ namespace Idpsa.Paletizado
             _sys = sys;
             _bus = _sys.Bus;
             _presencia = _bus.In("Input4.6").WithManualRepresentation("presencia paletizado alemana");
-            _supplier = supplier;
+            Supplier = supplier;
 
             //var settings = new PaletizerSettings(Idpsa.Paletizado.Paletizer.Action.Paletize, Idpsa.Paletizado.Paletizer.States.PutPalet)
             //MDG.2010-07-09.El estado inicial no es dejar palet nuevo. Se comprueba si hay que dejar palet en cadena de eleccion de tarea
@@ -76,7 +75,7 @@ namespace Idpsa.Paletizado
 
 
             Paletizer = new NormalPaletizer("paletizado línea alemana", cornerPoint, Locations.PaletizadoAlemana,
-                                            settings, (id) => _supplier.GetBox(id), suppliers, IDLine.Alemana)
+                                            settings, (id) => Supplier.GetBox(id), suppliers, IDLine.Alemana)
                 //.WithRequestElementAllowed(e=>(e==ElementTypes.Palet)?!bus.In("B819").Value():true);            
                 .WithRequestElementAllowed(e => (e == ElementTypes.Palet) ? !_bus.In("Input4.6").Value() : true);
             //MDG.2010-12-01.cambio de fotocelula
@@ -96,7 +95,7 @@ namespace Idpsa.Paletizado
             AddSupplier(PaletStore);
 
 
-            TransporteLinea = new TransporteLinea2(_sys, _supplier, solicitor, semaphore);
+            TransporteLinea = new TransporteLinea2(_sys, Supplier, solicitor, semaphore);
         }
 
         [Subsystem(Filter = SubsystemFilter.None)]
@@ -105,10 +104,7 @@ namespace Idpsa.Paletizado
         [Manual(SuperGroup = "Estado", Group = "Socitors/Supliers")]
         public NormalPaletizer Paletizer { get; private set; }
 
-        public SourceGroupSupplier Supplier
-        {
-            get { return _supplier; }
-        }
+        public SourceGroupSupplier Supplier { get; private set; }
 
         #region IAutomaticRunnable Members
 
@@ -125,7 +121,7 @@ namespace Idpsa.Paletizado
             if (datosCatalogo.SotoredData != null)
             {
                 //MDG.2010-12-13. Para evitar que dé error al crearse de nuevo el catalogo
-                _supplier.CurrentIndex = datosCatalogo.SotoredData.GetCurrectGroupIndex();
+                Supplier.CurrentIndex = datosCatalogo.SotoredData.GetCurrectGroupIndex();
                 //MDG.2010-12-09.Lo cargo antes que los datos del palet para que no me lo sobre escriba con el sabe interno que hace
             }
             Paletizer.StartPaletizer(datosCatalogo);
@@ -140,7 +136,7 @@ namespace Idpsa.Paletizado
         public override StoreStateCatalog GetDataToStore() //get to save to file
         {
             StoredDataPaletizado palet = Paletizer.GetDataToStore();
-            palet.CurrentGroupIndex = _supplier.CurrentIndex;
+            palet.CurrentGroupIndex = Supplier.CurrentIndex;
             //MDG.2010-12-09. Cogemos tambien el indice del ultimo grupo
             return new StoredDataCatalogoLinea2(palet);
         }
@@ -170,7 +166,7 @@ namespace Idpsa.Paletizado
             {
                 _paletizer = line2.Paletizer;
                 _presencia = line2._presencia;
-                _supplier = line2._supplier;
+                _supplier = line2.Supplier;
                 AddSteps();
             }
 

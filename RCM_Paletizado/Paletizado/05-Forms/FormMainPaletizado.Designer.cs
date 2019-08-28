@@ -77,7 +77,6 @@ namespace Idpsa
             this.menuCargar = new System.Windows.Forms.MenuItem();
             this.menuCargarGruposTransporte = new System.Windows.Forms.MenuItem();
             this.menuCargarCajasBandas = new System.Windows.Forms.MenuItem();
-            this.menuItem2 = new System.Windows.Forms.MenuItem();
             this.imgSimbolico = new System.Windows.Forms.ImageList(this.components);
             this.OpenDialog = new System.Windows.Forms.OpenFileDialog();
             this.btnManual = new System.Windows.Forms.Button();
@@ -88,16 +87,15 @@ namespace Idpsa
             this.btnActiveModeStop = new System.Windows.Forms.Button();
             this.pnlModo = new System.Windows.Forms.Panel();
             this.pnlRearmePasoAPaso = new System.Windows.Forms.Panel();
-            this.btEntradaManual0 = new System.Windows.Forms.Button();
-            this.checkBoxAutoSemaforo = new System.Windows.Forms.CheckBox();
-            this.labelVaciar = new System.Windows.Forms.Label();
             this.btVaciar = new System.Windows.Forms.Button();
-            this.btModoAcumulacion = new System.Windows.Forms.Button();
+            this.btModoAcumulacion_L1 = new System.Windows.Forms.Button();
+            this.btEntradaManual0 = new System.Windows.Forms.Button();
+            this.btModoAcumulacion_L2_T1 = new System.Windows.Forms.Button();
+            this.btModoAcumulacion_L2_T2 = new System.Windows.Forms.Button();
             this.Panel25 = new System.Windows.Forms.Panel();
             this.btnPaso = new System.Windows.Forms.Button();
             this.chkPasoAPaso = new System.Windows.Forms.CheckBox();
             this.btnRearme = new System.Windows.Forms.Button();
-            this.lblCycleTime = new System.Windows.Forms.Label();
             this.pnlMaquina = new System.Windows.Forms.Panel();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblConexionMando = new System.Windows.Forms.Label();
@@ -192,8 +190,7 @@ namespace Idpsa
             this.menuImpresion,
             this.menuGuardar,
             this.menuItemRefreshForm,
-            this.menuCargar,
-            this.menuItem2});
+            this.menuCargar});
             // 
             // menuSimbolico
             // 
@@ -341,13 +338,6 @@ namespace Idpsa
             this.menuCargarCajasBandas.Text = "Cargar Cajas Bandas";
             this.menuCargarCajasBandas.Click += new System.EventHandler(this.menuCargarCajasBandas_Click);
             // 
-            // menuItem2
-            // 
-            this.menuItem2.Index = 13;
-            this.menuItem2.Text = "Auto-Semáforo";
-            this.menuItem2.Visible = false;
-            this.menuItem2.Click += new System.EventHandler(this.menuItem2_Click);
-            // 
             // imgSimbolico
             // 
             this.imgSimbolico.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
@@ -365,7 +355,7 @@ namespace Idpsa
             this.btnManual.BackColor = System.Drawing.Color.LightGray;
             this.btnManual.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnManual.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnManual.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnManual.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnManual.Location = new System.Drawing.Point(0, 776);
             this.btnManual.Name = "btnManual";
             this.btnManual.Size = new System.Drawing.Size(84, 64);
@@ -391,7 +381,7 @@ namespace Idpsa
             this.btnVOrig.BackColor = System.Drawing.Color.LightGray;
             this.btnVOrig.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnVOrig.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnVOrig.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVOrig.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVOrig.Location = new System.Drawing.Point(0, 708);
             this.btnVOrig.Name = "btnVOrig";
             this.btnVOrig.Size = new System.Drawing.Size(84, 68);
@@ -405,7 +395,7 @@ namespace Idpsa
             this.btnAuto.BackColor = System.Drawing.Color.LightGray;
             this.btnAuto.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnAuto.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAuto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAuto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAuto.Location = new System.Drawing.Point(0, 633);
             this.btnAuto.Name = "btnAuto";
             this.btnAuto.Size = new System.Drawing.Size(84, 75);
@@ -463,80 +453,73 @@ namespace Idpsa
             // 
             // pnlRearmePasoAPaso
             // 
-            this.pnlRearmePasoAPaso.Controls.Add(this.btEntradaManual0);
-            this.pnlRearmePasoAPaso.Controls.Add(this.checkBoxAutoSemaforo);
-            this.pnlRearmePasoAPaso.Controls.Add(this.labelVaciar);
             this.pnlRearmePasoAPaso.Controls.Add(this.btVaciar);
-            this.pnlRearmePasoAPaso.Controls.Add(this.btModoAcumulacion);
+            this.pnlRearmePasoAPaso.Controls.Add(this.btModoAcumulacion_L1);
+            this.pnlRearmePasoAPaso.Controls.Add(this.btEntradaManual0);
+            this.pnlRearmePasoAPaso.Controls.Add(this.btModoAcumulacion_L2_T1);
+            this.pnlRearmePasoAPaso.Controls.Add(this.btModoAcumulacion_L2_T2);
             this.pnlRearmePasoAPaso.Controls.Add(this.Panel25);
             this.pnlRearmePasoAPaso.Controls.Add(this.btnRearme);
-            this.pnlRearmePasoAPaso.Controls.Add(this.lblCycleTime);
             this.pnlRearmePasoAPaso.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlRearmePasoAPaso.Location = new System.Drawing.Point(0, 216);
             this.pnlRearmePasoAPaso.Name = "pnlRearmePasoAPaso";
             this.pnlRearmePasoAPaso.Size = new System.Drawing.Size(84, 417);
             this.pnlRearmePasoAPaso.TabIndex = 13;
             // 
+            // btVaciar
+            // 
+            this.btVaciar.BackColor = System.Drawing.Color.Cornsilk;
+            this.btVaciar.Location = new System.Drawing.Point(5, 159);
+            this.btVaciar.Name = "btVaciar";
+            this.btVaciar.Size = new System.Drawing.Size(75, 23);
+            this.btVaciar.TabIndex = 51;
+            this.btVaciar.Text = "Vaciar";
+            this.btVaciar.UseVisualStyleBackColor = false;
+            this.btVaciar.Click += new System.EventHandler(this.btVaciar_Click);
+            // 
+            // btModoAcumulacion_L1
+            // 
+            this.btModoAcumulacion_L1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btModoAcumulacion_L1.Location = new System.Drawing.Point(4, 7);
+            this.btModoAcumulacion_L1.Name = "btModoAcumulacion_L1";
+            this.btModoAcumulacion_L1.Size = new System.Drawing.Size(77, 48);
+            this.btModoAcumulacion_L1.TabIndex = 47;
+            this.btModoAcumulacion_L1.Text = "Modo Acumulación L1 Inactivo";
+            this.btModoAcumulacion_L1.UseVisualStyleBackColor = false;
+            this.btModoAcumulacion_L1.Click += new System.EventHandler(this.btModoAcumulacion_L1_Click);
+            // 
             // btEntradaManual0
             // 
             this.btEntradaManual0.BackColor = System.Drawing.Color.LightGreen;
-            this.btEntradaManual0.Location = new System.Drawing.Point(4, 108);
+            this.btEntradaManual0.Location = new System.Drawing.Point(4, 186);
             this.btEntradaManual0.Name = "btEntradaManual0";
-            this.btEntradaManual0.Size = new System.Drawing.Size(77, 84);
+            this.btEntradaManual0.Size = new System.Drawing.Size(77, 55);
             this.btEntradaManual0.TabIndex = 50;
             this.btEntradaManual0.Text = "Entrada Manual Prodec";
             this.btEntradaManual0.UseVisualStyleBackColor = false;
             this.btEntradaManual0.Click += new System.EventHandler(this.btEntradaManual_Click);
             // 
-            // checkBoxAutoSemaforo
+            // btModoAcumulacion_L2_T1
             // 
-            this.checkBoxAutoSemaforo.AutoSize = true;
-            this.checkBoxAutoSemaforo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxAutoSemaforo.Location = new System.Drawing.Point(2, 286);
-            this.checkBoxAutoSemaforo.Name = "checkBoxAutoSemaforo";
-            this.checkBoxAutoSemaforo.Size = new System.Drawing.Size(85, 17);
-            this.checkBoxAutoSemaforo.TabIndex = 48;
-            this.checkBoxAutoSemaforo.Text = "EntradaAuto";
-            this.checkBoxAutoSemaforo.UseVisualStyleBackColor = true;
-            this.checkBoxAutoSemaforo.Visible = false;
-            this.checkBoxAutoSemaforo.CheckedChanged += new System.EventHandler(this.checkBoxAutoSemaforo_CheckedChanged);
+            this.btModoAcumulacion_L2_T1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btModoAcumulacion_L2_T1.Location = new System.Drawing.Point(4, 55);
+            this.btModoAcumulacion_L2_T1.Name = "btModoAcumulacion_L2_T1";
+            this.btModoAcumulacion_L2_T1.Size = new System.Drawing.Size(77, 50);
+            this.btModoAcumulacion_L2_T1.TabIndex = 47;
+            this.btModoAcumulacion_L2_T1.Text = "Modo Acumulación L2-T1 Inactivo";
+            this.btModoAcumulacion_L2_T1.UseVisualStyleBackColor = false;
+            this.btModoAcumulacion_L2_T1.Click += new System.EventHandler(this.btModoAcumulacion_L2_T1_Click);
             // 
-            // labelVaciar
+            // btModoAcumulacion_L2_T2
             // 
-            this.labelVaciar.BackColor = System.Drawing.Color.Khaki;
-            this.labelVaciar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelVaciar.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelVaciar.ForeColor = System.Drawing.Color.Black;
-            this.labelVaciar.Location = new System.Drawing.Point(4, 78);
-            this.labelVaciar.Name = "labelVaciar";
-            this.labelVaciar.Size = new System.Drawing.Size(76, 26);
-            this.labelVaciar.TabIndex = 14;
-            this.labelVaciar.Text = "Vaciando";
-            this.labelVaciar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.labelVaciar.Click += new System.EventHandler(this.lblCycleTime_Click);
-            // 
-            // btVaciar
-            // 
-            this.btVaciar.BackColor = System.Drawing.SystemColors.Control;
-            this.btVaciar.Location = new System.Drawing.Point(4, 93);
-            this.btVaciar.Name = "btVaciar";
-            this.btVaciar.Size = new System.Drawing.Size(76, 48);
-            this.btVaciar.TabIndex = 47;
-            this.btVaciar.Text = "Vaciando";
-            this.btVaciar.UseVisualStyleBackColor = false;
-            this.btVaciar.Visible = false;
-            this.btVaciar.Click += new System.EventHandler(this.btVaciar_Click);
-            // 
-            // btModoAcumulacion
-            // 
-            this.btModoAcumulacion.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btModoAcumulacion.Location = new System.Drawing.Point(4, 25);
-            this.btModoAcumulacion.Name = "btModoAcumulacion";
-            this.btModoAcumulacion.Size = new System.Drawing.Size(77, 50);
-            this.btModoAcumulacion.TabIndex = 47;
-            this.btModoAcumulacion.Text = "Modo Acumulación Inactivo";
-            this.btModoAcumulacion.UseVisualStyleBackColor = false;
-            this.btModoAcumulacion.Click += new System.EventHandler(this.btModoAcumulacion_Click);
+            this.btModoAcumulacion_L2_T2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btModoAcumulacion_L2_T2.Location = new System.Drawing.Point(4, 105);
+            this.btModoAcumulacion_L2_T2.Name = "btModoAcumulacion_L2_T2";
+            this.btModoAcumulacion_L2_T2.Size = new System.Drawing.Size(77, 50);
+            this.btModoAcumulacion_L2_T2.TabIndex = 47;
+            this.btModoAcumulacion_L2_T2.Text = "Modo Acumulación L2-T2 Inactivo";
+            this.btModoAcumulacion_L2_T2.UseVisualStyleBackColor = false;
+            this.btModoAcumulacion_L2_T2.Click += new System.EventHandler(this.btModoAcumulacion_L2_T2_Click);
             // 
             // Panel25
             // 
@@ -545,7 +528,7 @@ namespace Idpsa
             this.Panel25.Controls.Add(this.btnPaso);
             this.Panel25.Controls.Add(this.chkPasoAPaso);
             this.Panel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Panel25.Location = new System.Drawing.Point(0, 195);
+            this.Panel25.Location = new System.Drawing.Point(0, 241);
             this.Panel25.Name = "Panel25";
             this.Panel25.Size = new System.Drawing.Size(84, 54);
             this.Panel25.TabIndex = 46;
@@ -575,26 +558,13 @@ namespace Idpsa
             // 
             this.btnRearme.BackColor = System.Drawing.Color.LightGray;
             this.btnRearme.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRearme.Location = new System.Drawing.Point(-1, 251);
+            this.btnRearme.Location = new System.Drawing.Point(-1, 295);
             this.btnRearme.Name = "btnRearme";
             this.btnRearme.Size = new System.Drawing.Size(85, 35);
             this.btnRearme.TabIndex = 42;
             this.btnRearme.Text = "Rearme";
             this.btnRearme.UseVisualStyleBackColor = false;
             this.btnRearme.Click += new System.EventHandler(this.ActionQueryHandler);
-            // 
-            // lblCycleTime
-            // 
-            this.lblCycleTime.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.lblCycleTime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblCycleTime.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCycleTime.ForeColor = System.Drawing.Color.Black;
-            this.lblCycleTime.Location = new System.Drawing.Point(11, 0);
-            this.lblCycleTime.Name = "lblCycleTime";
-            this.lblCycleTime.Size = new System.Drawing.Size(63, 24);
-            this.lblCycleTime.TabIndex = 14;
-            this.lblCycleTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblCycleTime.Click += new System.EventHandler(this.lblCycleTime_Click);
             // 
             // pnlMaquina
             // 
@@ -1281,7 +1251,6 @@ namespace Idpsa
             ((System.ComponentModel.ISupportInitialize)(this.BindingSource)).EndInit();
             this.pnlModo.ResumeLayout(false);
             this.pnlRearmePasoAPaso.ResumeLayout(false);
-            this.pnlRearmePasoAPaso.PerformLayout();
             this.Panel25.ResumeLayout(false);
             this.Panel25.PerformLayout();
             this.pnlMaquina.ResumeLayout(false);
@@ -1339,7 +1308,6 @@ namespace Idpsa
         internal System.Windows.Forms.Panel pnlMaquina;
         internal System.Windows.Forms.PictureBox PictureBox1;
         internal System.Windows.Forms.Label lblConexionMando;
-        internal System.Windows.Forms.Label lblCycleTime;
         internal System.Windows.Forms.Label lblDiagnosis;
         internal System.Windows.Forms.Label lblProteccionesAnuladas;
         internal System.Windows.Forms.Label lblProteccionesOk;
@@ -1377,7 +1345,6 @@ namespace Idpsa
         private Panel panel9;
         private Panel panel99;
         private MenuItem menuItem1;
-        private Button btVaciar;
         private MenuItem menuImpresion;
         private Idpsa.Paletizado.ManualBoxReprocessor manualBoxReprocessor;
         private MenuItem menuGuardar;
@@ -1386,12 +1353,11 @@ namespace Idpsa
         private MenuItem menuGuardarGruposTransporte;
         private MenuItem menuCargar;
         private MenuItem menuCargarGruposTransporte;
-        private Button btModoAcumulacion;
+        private Button btModoAcumulacion_L1;
+        private Button btModoAcumulacion_L2_T1;
+        private Button btModoAcumulacion_L2_T2;
         private MenuItem menuGuardarCajasBandas;
         private MenuItem menuCargarCajasBandas;
-        internal Label labelVaciar;
-        private MenuItem menuItem2;
-        private CheckBox checkBoxAutoSemaforo;
         internal ColumnHeader ColumnHeader3;
         internal ColumnHeader ColumnHeader4;
         internal ListView lstDiagnosis;
@@ -1419,6 +1385,7 @@ namespace Idpsa
         internal ListView listAlarmaInfo;
         internal ColumnHeader columnHeader1;
         internal ColumnHeader columnHeader2;
+        private Button btVaciar;
 
 
     }
