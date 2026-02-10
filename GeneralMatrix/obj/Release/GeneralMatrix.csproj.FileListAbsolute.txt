@@ -1,4 +1,0 @@
-C:\Copias Seguridad\RCM_Paletizado\GeneralMatrix\bin\Release\GeneralMatrix.dll
-C:\Copias Seguridad\RCM_Paletizado\GeneralMatrix\bin\Release\GeneralMatrix.xml
-C:\Copias Seguridad\RCM_Paletizado\GeneralMatrix\obj\Release\ResolveAssemblyReference.cache
-C:\Copias Seguridad\RCM_Paletizado\GeneralMatrix\obj\Release\GeneralMatrix.dll

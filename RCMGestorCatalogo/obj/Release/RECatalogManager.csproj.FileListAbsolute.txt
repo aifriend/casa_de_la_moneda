@@ -1,7 +1,0 @@
-C:\Copias Seguridad\RCM_Paletizado\RCMGestorCatalogo\bin\Release\RECatalogManager.dll
-C:\Copias Seguridad\RCM_Paletizado\RCMGestorCatalogo\bin\Release\RECatalogManager.pdb
-C:\Copias Seguridad\RCM_Paletizado\RCMGestorCatalogo\bin\Release\RCMCommonTypes.dll
-C:\Copias Seguridad\RCM_Paletizado\RCMGestorCatalogo\bin\Release\RCMCommonTypes.pdb
-C:\Copias Seguridad\RCM_Paletizado\RCMGestorCatalogo\obj\Release\ResolveAssemblyReference.cache
-C:\Copias Seguridad\RCM_Paletizado\RCMGestorCatalogo\obj\Release\RECatalogManager.dll
-C:\Copias Seguridad\RCM_Paletizado\RCMGestorCatalogo\obj\Release\RECatalogManager.pdb
